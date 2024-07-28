@@ -16,7 +16,7 @@ class SurahListView extends StatelessWidget {
           appBar: CustomAppBar(title: 'Read Quran', subtitle: 'By Surah'),
           body: Scrollbar(
             child: ListView.builder(
-              itemCount: 30,
+              itemCount: 114,
               itemBuilder: (context, index) {
                 return SurahParaTile(
                   number: index + 1,

@@ -2,6 +2,7 @@ import 'package:app/global/services/size_helper_service.dart';
 import 'package:app/global/themes/colors.dart';
 import 'package:app/global/themes/fonts.dart';
 import 'package:app/global/utils/svg_constants.dart';
+import 'package:app/global/widgets/custom_text.dart';
 import 'package:app/global/widgets/vertical_gap.dart';
 import 'package:app/splash/splash_view_model.dart';
 import 'package:flutter/material.dart';
@@ -13,7 +14,7 @@ class SplashView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ViewModelBuilder.reactive(
+    return ViewModelBuilder.nonReactive(
       viewModelBuilder: () => SplashViewModel(),
       onViewModelReady: (viewModel) => viewModel.onViewModelReady(),
       builder: (context, viewModel, child) {
@@ -24,18 +25,16 @@ class SplashView extends StatelessWidget {
               children: [
                 // TODO: Add animation
                 SvgPicture.asset(
-                  appIconSvg,
+                  appIcon,
                   width: 135.w,
                 ),
                 const VerticalGap(18.5),
-                Text(
+                const CustomText(
                   'The Quran Companion',
-                  style: TextStyle(
-                    color: brown,
-                    fontFamily: poppinsMedium,
-                    fontSize: 23.sp,
-                  ),
-                )
+                  size: 23,
+                  font: poppinsMedium,
+                  color: brown,
+                ),
               ],
             ),
           ),

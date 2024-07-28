@@ -1,0 +1,23 @@
+import 'package:app/global/services/size_helper_service.dart';
+import 'package:app/global/utils/routes.dart';
+import 'package:app/global/themes/light_theme/light_theme.dart';
+import 'package:app/services_locator.dart';
+import 'package:flutter/material.dart';
+import 'package:stacked_services/stacked_services.dart';
+
+class App extends StatelessWidget {
+  const App({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    locator<SizeHelperService>().init(context);
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: 'Quran Companion',
+      theme: LightTheme.theme,
+      initialRoute: splashView,
+      onGenerateRoute: RoutesPath.generateRoute,
+      navigatorKey: StackedService.navigatorKey,
+    );
+  }
+}

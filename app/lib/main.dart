@@ -1,20 +1,13 @@
+import 'package:app/global/setup/local_storage_setup.dart';
+import 'package:app/global/utils/ui_helpers.dart';
+import 'package:app/services_locator.dart';
 import 'package:flutter/material.dart';
+import 'app.dart';
 
-void main() {
-  runApp(const MainApp());
-}
-
-class MainApp extends StatelessWidget {
-  const MainApp({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Text('Quran Companion!'),
-        ),
-      ),
-    );
-  }
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await LocalStorage.initializeSharedPreferences();
+  await setUpServiceLocator();
+  setStatusBarTransparent();
+  runApp(const App());
 }

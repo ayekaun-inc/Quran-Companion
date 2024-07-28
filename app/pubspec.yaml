@@ -9,11 +9,44 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_svg: ^2.0.10+1
+  get_it: ^7.7.0
+  shared_preferences: ^2.2.3
+  stacked: ^3.4.3
+  stacked_services: ^1.5.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/pngs/app_icon.png"
 
 flutter:
   uses-material-design: true
+
+  assets:
+   - assets/pngs/
+   - assets/fonts/
+   - assets/svgs/
+
+  fonts:
+    - family: AmiriBold
+      fonts:
+        - asset: assets/fonts/amiri_bold.ttf
+    - family: PoppinsMedium
+      fonts:
+        - asset: assets/fonts/poppins_medium.ttf
+    - family: PoppinsRegular
+      fonts:
+        - asset: assets/fonts/poppins_regular.ttf
+    - family: PoppinsSemiBold
+      fonts:
+        - asset: assets/fonts/poppins_semi_bold.ttf
+    - family: PoppinsMediumItalic
+      fonts:
+        - asset: assets/fonts/poppins_medium_italic.ttf

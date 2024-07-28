@@ -1,1 +1,1 @@
-const String appIconSvg = 'assets/svgs/app_icon.svg';
+const String appIcon = 'assets/svgs/app_icon.svg';

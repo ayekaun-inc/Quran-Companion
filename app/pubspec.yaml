@@ -38,6 +38,9 @@ flutter:
     - family: AmiriBold
       fonts:
         - asset: assets/fonts/amiri_bold.ttf
+    - family: AmiriRegular
+      fonts:
+        - asset: assets/fonts/amiri_regular.ttf
     - family: PoppinsMedium
       fonts:
         - asset: assets/fonts/poppins_medium.ttf

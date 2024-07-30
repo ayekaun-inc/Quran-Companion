@@ -17,6 +17,7 @@ class HomeViewModel extends BaseViewModel {
 
   void onSearchPressed() {
     // TODO: Add search logic
+    _navigationService.navigateTo(searchResultsView);
   }
 
   Future<void> onReadQuranPressed() async {

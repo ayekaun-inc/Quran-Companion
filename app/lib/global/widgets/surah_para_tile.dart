@@ -8,6 +8,8 @@ import 'package:app/global/widgets/vertical_gap.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
+import 'custom_divider.dart';
+
 class SurahParaTile extends StatelessWidget {
   final int number;
   final String title;
@@ -30,18 +32,7 @@ class SurahParaTile extends StatelessWidget {
       child: Column(
         children: [
           if (number != 1) ...[
-            Row(
-              children: [
-                const HorizontalGap(20),
-                Expanded(
-                  child: Container(
-                    height: 1,
-                    color: green.withOpacity(0.2),
-                  ),
-                ),
-                const HorizontalGap(24),
-              ],
-            ),
+            const CustomDivider(leftGap: 20, rightGap: 24),
           ],
           SizedBox(
             width: double.maxFinite,

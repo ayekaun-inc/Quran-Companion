@@ -1,5 +1,5 @@
 import 'package:app/global/widgets/custom_app_bar.dart';
-import 'package:app/global/widgets/surah_para_tile.dart';
+import 'package:app/global/widgets/surah_para_tile/surah_para_tile.dart';
 import 'package:app/para_list/para_list_view_model.dart';
 import 'package:flutter/material.dart';
 import 'package:stacked/stacked.dart';
@@ -9,7 +9,7 @@ class ParaListView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ViewModelBuilder.nonReactive(
+    return ViewModelBuilder.reactive(
       viewModelBuilder: () => ParaListViewModel(),
       builder: (context, viewModel, child) {
         return Scaffold(
@@ -22,7 +22,6 @@ class ParaListView extends StatelessWidget {
                   number: index + 1,
                   title: 'Alif Laam Meem',
                   arabic: 'آلم',
-                  onTap: () {},
                 );
               },
             ),

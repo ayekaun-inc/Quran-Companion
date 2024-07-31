@@ -2,14 +2,14 @@ import 'package:app/global/widgets/custom_app_bar.dart';
 import 'package:app/surah_list/surah_list_view_model.dart';
 import 'package:flutter/material.dart';
 import 'package:stacked/stacked.dart';
-import '../global/widgets/surah_para_tile.dart';
+import '../global/widgets/surah_para_tile/surah_para_tile.dart';
 
 class SurahListView extends StatelessWidget {
   const SurahListView({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return ViewModelBuilder.nonReactive(
+    return ViewModelBuilder.reactive(
       viewModelBuilder: () => SurahListViewModel(),
       builder: (context, viewModel, child) {
         return Scaffold(
@@ -23,7 +23,6 @@ class SurahListView extends StatelessWidget {
                   title: 'Al-Baqarah',
                   subtitle: '286 Verses',
                   arabic: 'ةرقبلا',
-                  onTap: () {},
                 );
               },
             ),

@@ -21,6 +21,7 @@ class ParaListView extends StatelessWidget {
                 return SurahParaTile(
                   number: index + 1,
                   title: 'Alif Laam Meem',
+                  subtitle: '36 Verses',
                   arabic: 'آلم',
                 );
               },

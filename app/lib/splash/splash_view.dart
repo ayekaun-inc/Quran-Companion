@@ -16,14 +16,13 @@ class SplashView extends StatelessWidget {
   Widget build(BuildContext context) {
     return ViewModelBuilder.reactive(
       viewModelBuilder: () => SplashViewModel(),
-      onViewModelReady: (viewModel) => viewModel.onViewModelReady(),
+      onViewModelReady: (viewModel) => viewModel.init(),
       builder: (context, viewModel, child) {
         return Scaffold(
           body: Center(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                // TODO: Add animation
                 SvgPicture.asset(
                   appIcon,
                   width: 135.w,

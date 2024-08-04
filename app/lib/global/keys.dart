@@ -1,1 +1,1 @@
-
+const String noteKeyPrefix = 'qcNote';

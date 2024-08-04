@@ -4,8 +4,11 @@ import 'package:flutter/material.dart';
 class HorizontalPadding extends StatelessWidget {
   final double padding;
   final Widget child;
-  const HorizontalPadding(
-      {super.key, required this.padding, required this.child});
+  const HorizontalPadding({
+    super.key,
+    required this.padding,
+    required this.child,
+  });
 
   @override
   Widget build(BuildContext context) {

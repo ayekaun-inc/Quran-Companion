@@ -9,20 +9,19 @@ import 'package:app/global/widgets/vertical_gap.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:stacked/stacked.dart';
-
 import '../custom_divider.dart';
 
 class SurahParaTile extends StatelessWidget {
   final int number;
   final String title;
-  final String? subtitle;
+  final String subtitle;
   final String arabic;
   const SurahParaTile({
     super.key,
     required this.number,
     required this.title,
     required this.arabic,
-    this.subtitle,
+    required this.subtitle,
   });
 
   @override
@@ -69,28 +68,26 @@ class SurahParaTile extends StatelessWidget {
                           font: poppinsMedium,
                           color: brown,
                         ),
-                        if (subtitle != null) ...[
-                          const VerticalGap(4),
-                          Row(
-                            children: [
-                              Container(
-                                width: 4.w,
-                                height: 4.h,
-                                decoration: BoxDecoration(
-                                  color: green.withOpacity(0.2),
-                                  shape: BoxShape.circle,
-                                ),
+                        const VerticalGap(4),
+                        Row(
+                          children: [
+                            Container(
+                              width: 4.w,
+                              height: 4.h,
+                              decoration: BoxDecoration(
+                                color: green.withOpacity(0.2),
+                                shape: BoxShape.circle,
                               ),
-                              const HorizontalGap(5),
-                              CustomText(
-                                subtitle!.toUpperCase(),
-                                size: 12,
-                                font: poppinsMedium,
-                                color: brown.withOpacity(0.4),
-                              ),
-                            ],
-                          ),
-                        ],
+                            ),
+                            const HorizontalGap(5),
+                            CustomText(
+                              subtitle.toUpperCase(),
+                              size: 12,
+                              font: poppinsMedium,
+                              color: brown.withOpacity(0.4),
+                            ),
+                          ],
+                        ),
                       ],
                     ),
                     const Spacer(),

@@ -7,6 +7,6 @@ class SurahParaTileViewModel extends BaseViewModel {
   final NavigationService _navigationService = locator<NavigationService>();
 
   void onSurahParaTileTap() {
-    _navigationService.navigateTo(surahView);
+    _navigationService.navigateTo(paraView);
   }
 }

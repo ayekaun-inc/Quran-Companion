@@ -1,4 +1,5 @@
 import 'package:app/home/home_view.dart';
+import 'package:app/para/para_view.dart';
 import 'package:app/para_list/para_list_view.dart';
 import 'package:app/search_results/search_results_view.dart';
 import 'package:app/splash/splash_view.dart';
@@ -12,6 +13,7 @@ const String searchResultsView = '/searchResults';
 const String surahListView = '/surahList';
 const String paraListView = '/paraList';
 const String surahView = '/surah';
+const String paraView = '/para';
 
 class RoutesPath {
   static MaterialPageRoute<dynamic> generateRoute(RouteSettings settings) {
@@ -29,6 +31,8 @@ class RoutesPath {
             builder: (context) => const SearchResultsView());
       case surahView:
         return MaterialPageRoute(builder: (context) => const SurahView());
+      case paraView:
+        return MaterialPageRoute(builder: (context) => const ParaView());
       default:
         return MaterialPageRoute(builder: (context) => const SplashView());
     }

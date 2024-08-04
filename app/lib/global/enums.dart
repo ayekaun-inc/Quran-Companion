@@ -1,5 +1,5 @@
-enum AyatTileActionButtonType { download, note }
+enum CustomActionButtonType { download, note }
 
-enum AyatListViewType { searchResults, surah, para }
+enum AyatListType { searchResults, surah, para }
 
 enum ReadingModeType { surah, para }

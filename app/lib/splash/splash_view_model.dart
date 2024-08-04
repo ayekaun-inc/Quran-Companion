@@ -6,9 +6,9 @@ import 'package:stacked_services/stacked_services.dart';
 class SplashViewModel extends BaseViewModel {
   final NavigationService _navigationService = locator<NavigationService>();
 
-  Future<void> onViewModelReady() async {
+  Future<void> init() async {
     await simulateLoading();
-    navigateToHome();
+    await navigateToHome();
   }
 
   Future<void> simulateLoading() async {
@@ -16,6 +16,6 @@ class SplashViewModel extends BaseViewModel {
   }
 
   Future<void> navigateToHome() async {
-    _navigationService.replaceWith(homeView);
+    await _navigationService.replaceWith(homeView);
   }
 }

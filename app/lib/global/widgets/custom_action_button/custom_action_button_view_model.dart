@@ -1,5 +1,5 @@
-import 'package:app/global/enums.dart';
-import 'package:app/global/keys.dart';
+import 'package:app/global/utils/enums.dart';
+import 'package:app/global/utils/keys.dart';
 import 'package:app/global/setup/local_storage_setup.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:stacked/stacked.dart';

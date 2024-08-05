@@ -1,3 +1,6 @@
+import 'package:app/global/models/ayat_model.dart';
+import 'package:app/global/models/search_results_view_arguments.dart';
+import 'package:app/global/repositories/ayat_repository.dart';
 import 'package:app/global/utils/ui_helpers.dart';
 import 'package:app/global/widgets/dialogs/options_dialog/options_dialog_data.dart';
 import 'package:app/global/setup/dialog_setup.dart';
@@ -10,6 +13,7 @@ import 'package:stacked_services/stacked_services.dart';
 class HomeViewModel extends BaseViewModel {
   final DialogService _dialogService = locator<DialogService>();
   final NavigationService _navigationService = locator<NavigationService>();
+  final AyatRepository _ayatRepository = AyatRepository();
   final BuildContext context;
 
   HomeViewModel(this.context);
@@ -41,8 +45,16 @@ class HomeViewModel extends BaseViewModel {
   void handleSearch() {
     collapseKeyboard(context);
     if (!_searchIsEmptyError) {
-      // TODO: Add search
-      _navigationService.navigateTo(searchResultsView);
+      List<AyatModel> searchResults =
+          _ayatRepository.getAyatByUrdu(_searchText);
+
+      _navigationService.navigateTo(
+        searchResultsView,
+        arguments: SearchResultsViewArguments(
+          searchTerm: _searchText,
+          searchResults: searchResults,
+        ),
+      );
     }
   }
 

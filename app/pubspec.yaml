@@ -11,6 +11,7 @@ dependencies:
     sdk: flutter
   flutter_svg: ^2.0.10+1
   get_it: ^7.7.0
+  lottie: ^3.1.2
   shared_preferences: ^2.2.3
   stacked: ^3.4.3
   stacked_services: ^1.5.0
@@ -33,6 +34,7 @@ flutter:
    - assets/pngs/
    - assets/fonts/
    - assets/svgs/
+   - assets/animations/
 
   fonts:
     - family: AmiriBold

@@ -16,6 +16,6 @@ class SplashViewModel extends BaseViewModel {
   }
 
   Future<void> navigateToHome() async {
-    await _navigationService.replaceWith(homeView);
+    await _navigationService.clearStackAndShow(homeView);
   }
 }

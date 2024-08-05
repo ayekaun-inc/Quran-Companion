@@ -1,3 +1,4 @@
+import 'package:app/global/models/search_results_view_arguments.dart';
 import 'package:app/home/home_view.dart';
 import 'package:app/para/para_view.dart';
 import 'package:app/para_list/para_list_view.dart';
@@ -27,8 +28,11 @@ class RoutesPath {
       case paraListView:
         return MaterialPageRoute(builder: (context) => const ParaListView());
       case searchResultsView:
+        SearchResultsViewArguments args =
+            settings.arguments as SearchResultsViewArguments;
         return MaterialPageRoute(
-            builder: (context) => const SearchResultsView());
+          builder: (context) => SearchResultsView(arguments: args),
+        );
       case surahView:
         return MaterialPageRoute(builder: (context) => const SurahView());
       case paraView:

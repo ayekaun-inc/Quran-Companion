@@ -1,4 +1,4 @@
-import 'package:app/global/enums.dart';
+import 'package:app/global/utils/enums.dart';
 import 'package:app/global/services/size_helper_service.dart';
 import 'package:app/global/themes/colors.dart';
 import 'package:app/global/utils/svg_constants.dart';

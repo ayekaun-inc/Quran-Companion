@@ -1,11 +1,11 @@
-import 'package:app/global/services/size_helper_service.dart';
-import 'package:app/global/themes/colors.dart';
-import 'package:app/global/themes/fonts.dart';
-import 'package:app/global/utils/svg_constants.dart';
-import 'package:app/global/widgets/custom_text.dart';
-import 'package:app/global/widgets/horizontal_gap.dart';
-import 'package:app/global/widgets/surah_para_tile/surah_para_tile_view_model.dart';
-import 'package:app/global/widgets/vertical_gap.dart';
+import 'package:quran_companion/global/services/size_helper_service.dart';
+import 'package:quran_companion/global/themes/colors.dart';
+import 'package:quran_companion/global/themes/fonts.dart';
+import 'package:quran_companion/global/utils/svg_constants.dart';
+import 'package:quran_companion/global/widgets/custom_text.dart';
+import 'package:quran_companion/global/widgets/horizontal_gap.dart';
+import 'package:quran_companion/global/widgets/surah_para_tile/surah_para_tile_view_model.dart';
+import 'package:quran_companion/global/widgets/vertical_gap.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:stacked/stacked.dart';
@@ -16,12 +16,14 @@ class SurahParaTile extends StatelessWidget {
   final String title;
   final String subtitle;
   final String arabic;
+  final void Function()? onTap;
   const SurahParaTile({
     super.key,
     required this.number,
     required this.title,
     required this.arabic,
     required this.subtitle,
+    required this.onTap,
   });
 
   @override
@@ -30,7 +32,7 @@ class SurahParaTile extends StatelessWidget {
       viewModelBuilder: () => SurahParaTileViewModel(),
       builder: (context, viewModel, child) {
         return InkWell(
-          onTap: viewModel.onSurahParaTileTap,
+          onTap: onTap,
           child: Column(
             children: [
               if (number != 1) ...[
@@ -51,7 +53,7 @@ class SurahParaTile extends StatelessWidget {
                         ),
                         CustomText(
                           number.toString(),
-                          size: 14,
+                          size: 12,
                           font: poppinsMedium,
                           color: brown,
                         ),
@@ -93,7 +95,7 @@ class SurahParaTile extends StatelessWidget {
                     const Spacer(),
                     CustomText(
                       arabic,
-                      size: 20,
+                      size: 16,
                       font: amiriBold,
                       color: green,
                     ),

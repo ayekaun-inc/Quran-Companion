@@ -1,4 +1,4 @@
-import 'package:app/global/services/size_helper_service.dart';
+import 'package:quran_companion/global/services/size_helper_service.dart';
 import 'package:flutter/material.dart';
 
 class HorizontalPadding extends StatelessWidget {

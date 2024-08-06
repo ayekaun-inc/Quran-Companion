@@ -1,10 +1,10 @@
-import 'package:app/global/services/size_helper_service.dart';
-import 'package:app/global/themes/colors.dart';
-import 'package:app/global/themes/fonts.dart';
-import 'package:app/global/utils/svg_constants.dart';
-import 'package:app/global/widgets/custom_text.dart';
-import 'package:app/global/widgets/vertical_gap.dart';
-import 'package:app/splash/splash_view_model.dart';
+import 'package:quran_companion/global/services/size_helper_service.dart';
+import 'package:quran_companion/global/themes/colors.dart';
+import 'package:quran_companion/global/themes/fonts.dart';
+import 'package:quran_companion/global/utils/svg_constants.dart';
+import 'package:quran_companion/global/widgets/custom_text.dart';
+import 'package:quran_companion/global/widgets/vertical_gap.dart';
+import 'package:quran_companion/splash/splash_view_model.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:stacked/stacked.dart';

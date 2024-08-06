@@ -1,7 +1,7 @@
-import 'package:app/global/services/size_helper_service.dart';
-import 'package:app/global/themes/colors.dart';
-import 'package:app/global/themes/fonts.dart';
-import 'package:app/global/utils/ui_helpers.dart';
+import 'package:quran_companion/global/services/size_helper_service.dart';
+import 'package:quran_companion/global/themes/colors.dart';
+import 'package:quran_companion/global/themes/fonts.dart';
+import 'package:quran_companion/global/utils/ui_helpers.dart';
 import 'package:flutter/material.dart';
 
 class SearchTextField extends StatefulWidget {

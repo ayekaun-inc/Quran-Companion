@@ -1,12 +1,12 @@
-import 'package:app/global/utils/enums.dart';
-import 'package:app/global/services/size_helper_service.dart';
-import 'package:app/global/themes/colors.dart';
-import 'package:app/global/themes/fonts.dart';
-import 'package:app/global/widgets/custom_divider.dart';
-import 'package:app/global/widgets/custom_text.dart';
-import 'package:app/global/widgets/horizontal_gap.dart';
-import 'package:app/global/widgets/horizontal_padding.dart';
-import 'package:app/global/widgets/vertical_gap.dart';
+import 'package:quran_companion/global/utils/enums.dart';
+import 'package:quran_companion/global/services/size_helper_service.dart';
+import 'package:quran_companion/global/themes/colors.dart';
+import 'package:quran_companion/global/themes/fonts.dart';
+import 'package:quran_companion/global/widgets/custom_divider.dart';
+import 'package:quran_companion/global/widgets/custom_text.dart';
+import 'package:quran_companion/global/widgets/horizontal_gap.dart';
+import 'package:quran_companion/global/widgets/horizontal_padding.dart';
+import 'package:quran_companion/global/widgets/vertical_gap.dart';
 import 'package:flutter/material.dart';
 
 import 'custom_action_button/custom_action_button.dart';
@@ -49,14 +49,23 @@ class AyatTile extends StatelessWidget {
                   const CustomActionButton(
                       type: CustomActionButtonType.download),
                   const Spacer(),
-                  CircleAvatar(
-                    backgroundColor: green,
-                    foregroundColor: white,
-                    radius: 13.5.r,
-                    child: CustomText(
-                      number.toString(),
-                      size: 14,
-                      font: poppinsMedium,
+                  Tooltip(
+                    message: 'Ayat number',
+                    child: Container(
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(10.r),
+                        color: green.withOpacity(0.81),
+                      ),
+                      padding: EdgeInsets.symmetric(
+                        horizontal: 10.w,
+                        vertical: 3.h,
+                      ),
+                      child: CustomText(
+                        number.toString(),
+                        size: 12,
+                        font: poppinsMedium,
+                        color: white,
+                      ),
                     ),
                   ),
                   const HorizontalGap(16),

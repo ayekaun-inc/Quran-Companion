@@ -1,7 +1,7 @@
-import 'package:app/global/setup/dialog_setup.dart';
-import 'package:app/global/setup/local_storage_setup.dart';
-import 'package:app/global/utils/ui_helpers.dart';
-import 'package:app/services_locator.dart';
+import 'package:quran_companion/global/setup/dialog_setup.dart';
+import 'package:quran_companion/global/setup/local_storage_setup.dart';
+import 'package:quran_companion/global/utils/ui_helpers.dart';
+import 'package:quran_companion/services_locator.dart';
 import 'package:flutter/material.dart';
 import 'app.dart';
 

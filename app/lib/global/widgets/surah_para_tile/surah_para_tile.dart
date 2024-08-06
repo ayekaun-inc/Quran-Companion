@@ -30,7 +30,7 @@ class SurahParaTile extends StatelessWidget {
       viewModelBuilder: () => SurahParaTileViewModel(),
       builder: (context, viewModel, child) {
         return InkWell(
-          onTap: viewModel.onSurahParaTileTap,
+          onTap: () => viewModel.onSurahParaTileTap(number),
           child: Column(
             children: [
               if (number != 1) ...[

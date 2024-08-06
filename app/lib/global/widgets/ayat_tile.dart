@@ -49,14 +49,20 @@ class AyatTile extends StatelessWidget {
                   const CustomActionButton(
                       type: CustomActionButtonType.download),
                   const Spacer(),
-                  CircleAvatar(
-                    backgroundColor: green,
-                    foregroundColor: white,
-                    radius: 13.5.r,
+                  Container(
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(10.r),
+                      color: green.withOpacity(0.81),
+                    ),
+                    padding: EdgeInsets.symmetric(
+                      horizontal: 10.w,
+                      vertical: 3.h,
+                    ),
                     child: CustomText(
                       number.toString(),
-                      size: 14,
+                      size: 12,
                       font: poppinsMedium,
+                      color: white,
                     ),
                   ),
                   const HorizontalGap(16),

@@ -1,5 +1,5 @@
 import 'package:app/global/models/ayat_model.dart';
-import 'package:app/global/models/search_results_view_arguments.dart';
+import 'package:app/global/models/ayat_list_view_arguments.dart';
 import 'package:app/global/repositories/ayat_repository.dart';
 import 'package:app/global/utils/ui_helpers.dart';
 import 'package:app/global/widgets/dialogs/options_dialog/options_dialog_data.dart';
@@ -49,10 +49,12 @@ class HomeViewModel extends BaseViewModel {
           _ayatRepository.getAyatByUrdu(_searchText);
 
       _navigationService.navigateTo(
-        searchResultsView,
-        arguments: SearchResultsViewArguments(
-          searchTerm: _searchText,
-          searchResults: searchResults,
+        ayatListView,
+        arguments: AyatListViewArguments(
+          title: 'Search Results',
+          subtitle: "by word '$_searchText'",
+          ayats: searchResults,
+          highligtedTerm: _searchText,
         ),
       );
     }

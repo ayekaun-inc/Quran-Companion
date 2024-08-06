@@ -1,5 +1,6 @@
-import 'package:app/global/models/ayat_model.dart';
-import 'package:app/global/providers/ayat_provider.dart';
+import 'package:quran_companion/global/models/ayat_model.dart';
+import 'package:quran_companion/global/providers/ayat_provider.dart';
+import 'package:quran_companion/global/utils/enums.dart';
 
 class AyatRepository {
   final AyatProvider _ayatProvider = AyatProvider();
@@ -8,11 +9,7 @@ class AyatRepository {
     return _ayatProvider.getAyatByUrdu(searchTerm);
   }
 
-  List<AyatModel> getAyatBySurah(int surahId) {
-    return _ayatProvider.getAyatBySurah(surahId);
-  }
-
-  List<AyatModel> getAyatByPara(int paraId) {
-    return _ayatProvider.getAyatByPara(paraId);
+  List<AyatModel> getAyatBySurahPara(ReadingMode mode, int id) {
+    return _ayatProvider.getAyatBySurahPara(mode, id);
   }
 }

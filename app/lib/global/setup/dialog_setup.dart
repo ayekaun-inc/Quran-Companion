@@ -1,5 +1,5 @@
-import 'package:app/global/widgets/dialogs/options_dialog/options_dialog.dart';
-import 'package:app/services_locator.dart';
+import 'package:quran_companion/global/widgets/dialogs/options_dialog/options_dialog.dart';
+import 'package:quran_companion/services_locator.dart';
 import 'package:stacked_services/stacked_services.dart';
 
 enum DialogType { options }

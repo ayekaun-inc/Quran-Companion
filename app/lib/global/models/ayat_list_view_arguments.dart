@@ -1,4 +1,4 @@
-import 'package:app/global/models/ayat_model.dart';
+import 'package:quran_companion/global/models/ayat_model.dart';
 
 class AyatListViewArguments {
   final String title;

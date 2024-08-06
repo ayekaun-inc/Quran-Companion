@@ -1,7 +1,7 @@
-import 'package:app/global/services/size_helper_service.dart';
-import 'package:app/global/utils/routes.dart';
-import 'package:app/global/themes/light_theme/light_theme.dart';
-import 'package:app/services_locator.dart';
+import 'package:quran_companion/global/services/size_helper_service.dart';
+import 'package:quran_companion/global/utils/routes.dart';
+import 'package:quran_companion/global/themes/light_theme/light_theme.dart';
+import 'package:quran_companion/services_locator.dart';
 import 'package:flutter/material.dart';
 import 'package:stacked_services/stacked_services.dart';
 

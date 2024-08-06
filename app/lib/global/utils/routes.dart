@@ -1,16 +1,15 @@
-import 'package:app/global/models/ayat_list_view_arguments.dart';
-import 'package:app/home/home_view.dart';
-import 'package:app/para_list/para_list_view.dart';
-import 'package:app/ayat_list/ayat_list_view.dart';
-import 'package:app/splash/splash_view.dart';
-import 'package:app/surah_list/surah_list_view.dart';
+import 'package:quran_companion/global/models/ayat_list_view_arguments.dart';
+import 'package:quran_companion/global/utils/enums.dart';
+import 'package:quran_companion/home/home_view.dart';
+import 'package:quran_companion/ayat_list/ayat_list_view.dart';
+import 'package:quran_companion/splash/splash_view.dart';
+import 'package:quran_companion/surah_para_list/surah_para_list_view.dart';
 import 'package:flutter/material.dart';
 
 const String splashView = '/splash';
 const String homeView = '/home';
 const String ayatListView = '/ayatList';
-const String surahListView = '/surahList';
-const String paraListView = '/paraList';
+const String surahParaListView = '/surahParaList';
 
 class RoutesPath {
   static MaterialPageRoute<dynamic> generateRoute(RouteSettings settings) {
@@ -19,10 +18,11 @@ class RoutesPath {
         return MaterialPageRoute(builder: (context) => const SplashView());
       case homeView:
         return MaterialPageRoute(builder: (context) => const HomeView());
-      case surahListView:
-        return MaterialPageRoute(builder: (context) => const SurahListView());
-      case paraListView:
-        return MaterialPageRoute(builder: (context) => const ParaListView());
+      case surahParaListView:
+        ReadingMode args = settings.arguments as ReadingMode;
+        return MaterialPageRoute(
+          builder: (context) => SurahParaListView(mode: args),
+        );
       case ayatListView:
         AyatListViewArguments args =
             settings.arguments as AyatListViewArguments;

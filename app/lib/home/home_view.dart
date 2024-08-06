@@ -1,10 +1,10 @@
-import 'package:app/global/services/size_helper_service.dart';
-import 'package:app/global/themes/colors.dart';
-import 'package:app/global/themes/fonts.dart';
-import 'package:app/global/widgets/custom_text.dart';
-import 'package:app/global/widgets/horizontal_padding.dart';
-import 'package:app/global/widgets/vertical_gap.dart';
-import 'package:app/home/home_view_model.dart';
+import 'package:quran_companion/global/services/size_helper_service.dart';
+import 'package:quran_companion/global/themes/colors.dart';
+import 'package:quran_companion/global/themes/fonts.dart';
+import 'package:quran_companion/global/widgets/custom_text.dart';
+import 'package:quran_companion/global/widgets/horizontal_padding.dart';
+import 'package:quran_companion/global/widgets/vertical_gap.dart';
+import 'package:quran_companion/home/home_view_model.dart';
 import 'package:flutter/material.dart';
 import 'package:stacked/stacked.dart';
 import '../global/widgets/custom_elevated_button.dart';
@@ -49,6 +49,7 @@ class HomeView extends StatelessWidget {
                         ),
                         child: const Center(
                           child: CustomText(
+                            // TODO: Add home picture
                             'Picture to be added...',
                             size: 12,
                             font: poppinsRegular,

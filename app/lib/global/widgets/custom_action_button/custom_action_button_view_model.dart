@@ -1,6 +1,6 @@
-import 'package:app/global/utils/enums.dart';
-import 'package:app/global/utils/keys.dart';
-import 'package:app/global/setup/local_storage_setup.dart';
+import 'package:quran_companion/global/utils/enums.dart';
+import 'package:quran_companion/global/utils/keys.dart';
+import 'package:quran_companion/global/setup/local_storage_setup.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:stacked/stacked.dart';
 

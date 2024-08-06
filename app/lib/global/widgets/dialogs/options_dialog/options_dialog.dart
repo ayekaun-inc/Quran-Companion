@@ -1,8 +1,8 @@
-import 'package:app/global/widgets/dialogs/options_dialog/options_dialog_data.dart';
-import 'package:app/global/services/size_helper_service.dart';
-import 'package:app/global/themes/colors.dart';
-import 'package:app/global/widgets/custom_elevated_button.dart';
-import 'package:app/global/widgets/vertical_gap.dart';
+import 'package:quran_companion/global/widgets/dialogs/options_dialog/options_dialog_data.dart';
+import 'package:quran_companion/global/services/size_helper_service.dart';
+import 'package:quran_companion/global/themes/colors.dart';
+import 'package:quran_companion/global/widgets/custom_elevated_button.dart';
+import 'package:quran_companion/global/widgets/vertical_gap.dart';
 import 'package:flutter/material.dart';
 import 'package:stacked_services/stacked_services.dart';
 

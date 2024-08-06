@@ -1,5 +1,5 @@
-import 'package:app/global/themes/colors.dart';
-import 'package:app/global/widgets/horizontal_gap.dart';
+import 'package:quran_companion/global/themes/colors.dart';
+import 'package:quran_companion/global/widgets/horizontal_gap.dart';
 import 'package:flutter/material.dart';
 
 class CustomDivider extends StatelessWidget {

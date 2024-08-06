@@ -1,11 +1,12 @@
-import 'package:app/global/models/ayat_model.dart';
-import 'package:app/global/models/ayat_list_view_arguments.dart';
-import 'package:app/global/repositories/ayat_repository.dart';
-import 'package:app/global/utils/ui_helpers.dart';
-import 'package:app/global/widgets/dialogs/options_dialog/options_dialog_data.dart';
-import 'package:app/global/setup/dialog_setup.dart';
-import 'package:app/global/utils/routes.dart';
-import 'package:app/services_locator.dart';
+import 'package:quran_companion/global/models/ayat_model.dart';
+import 'package:quran_companion/global/models/ayat_list_view_arguments.dart';
+import 'package:quran_companion/global/repositories/ayat_repository.dart';
+import 'package:quran_companion/global/utils/enums.dart';
+import 'package:quran_companion/global/utils/ui_helpers.dart';
+import 'package:quran_companion/global/widgets/dialogs/options_dialog/options_dialog_data.dart';
+import 'package:quran_companion/global/setup/dialog_setup.dart';
+import 'package:quran_companion/global/utils/routes.dart';
+import 'package:quran_companion/services_locator.dart';
 import 'package:flutter/material.dart';
 import 'package:stacked/stacked.dart';
 import 'package:stacked_services/stacked_services.dart';
@@ -71,14 +72,17 @@ class HomeViewModel extends BaseViewModel {
       data: OptionsDialogData(
         option1: 'By Surah',
         option2: 'By Para',
-        onOption1Pressed: () => onReadingModePressed(surahListView),
-        onOption2Pressed: () => onReadingModePressed(paraListView),
+        onOption1Pressed: () => _onReadingModePressed(mode: ReadingMode.surah),
+        onOption2Pressed: () => _onReadingModePressed(mode: ReadingMode.para),
       ),
     );
   }
 
-  void onReadingModePressed(String route) {
+  void _onReadingModePressed({required ReadingMode mode}) {
     _navigationService.back();
-    _navigationService.navigateTo(route);
+    _navigationService.navigateTo(
+      surahParaListView,
+      arguments: mode,
+    );
   }
 }

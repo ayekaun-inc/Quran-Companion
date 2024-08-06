@@ -1,4 +1,4 @@
-import 'package:app/services_locator.dart';
+import 'package:quran_companion/services_locator.dart';
 import 'package:flutter/material.dart';
 
 class SizeHelperService {

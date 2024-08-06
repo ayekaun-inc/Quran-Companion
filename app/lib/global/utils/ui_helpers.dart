@@ -1,4 +1,4 @@
-import 'package:app/global/themes/colors.dart';
+import 'package:quran_companion/global/themes/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 

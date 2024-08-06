@@ -1,5 +1,5 @@
-import 'package:app/global/services/size_helper_service.dart';
-import 'package:app/global/themes/colors.dart';
+import 'package:quran_companion/global/services/size_helper_service.dart';
+import 'package:quran_companion/global/themes/colors.dart';
 import 'package:flutter/material.dart';
 
 class CustomText extends StatelessWidget {

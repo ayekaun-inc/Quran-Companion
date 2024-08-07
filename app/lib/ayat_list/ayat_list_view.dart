@@ -1,4 +1,5 @@
 import 'package:quran_companion/global/models/ayat_list_view_arguments.dart';
+import 'package:quran_companion/global/models/ayat_model.dart';
 import 'package:quran_companion/global/services/size_helper_service.dart';
 import 'package:quran_companion/global/themes/colors.dart';
 import 'package:quran_companion/global/themes/fonts.dart';
@@ -10,7 +11,7 @@ import 'package:quran_companion/ayat_list/ayat_list_view_model.dart';
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 import 'package:stacked/stacked.dart';
-import '../global/widgets/ayat_tile.dart';
+import '../global/widgets/ayat_tile/ayat_tile.dart';
 
 class AyatListView extends StatelessWidget {
   final AyatListViewArguments arguments;
@@ -68,11 +69,11 @@ class AyatListView extends StatelessWidget {
                   child: ListView.builder(
                     itemCount: arguments.ayats.length,
                     itemBuilder: (context, index) {
+                      AyatModel currentAyat = arguments.ayats[index];
                       return AyatTile(
-                        number: arguments.ayats[index].ayatId!,
-                        arabic: arguments.ayats[index].arabic ??
-                            'Arabic not available!',
-                        urdu: arguments.ayats[index].urdu!,
+                        number: currentAyat.ayatId!,
+                        arabic: currentAyat.arabic ?? 'Arabic not available!',
+                        urdu: currentAyat.urdu!,
                         highlightedWord: arguments.highligtedTerm,
                       );
                     },

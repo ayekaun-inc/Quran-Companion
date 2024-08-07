@@ -9,10 +9,7 @@ void setupDialogUI() {
 
   final builders = {
     DialogType.options: (context, sheetRequest, completer) {
-      return OptionsDialog(
-        request: sheetRequest,
-        completer: completer,
-      );
+      return OptionsDialog(request: sheetRequest, completer: completer);
     },
   };
 

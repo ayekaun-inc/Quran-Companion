@@ -1,3 +1,4 @@
+import 'package:quran_companion/global/setup/bottom_sheet_setup.dart';
 import 'package:quran_companion/global/setup/dialog_setup.dart';
 import 'package:quran_companion/global/setup/local_storage_setup.dart';
 import 'package:quran_companion/global/utils/ui_helpers.dart';
@@ -10,6 +11,7 @@ Future<void> main() async {
   await LocalStorage.initializeSharedPreferences();
   await setUpServiceLocator();
   setupDialogUI();
+  setupBottomSheetUI();
   setStatusBarTransparent();
   runApp(const App());
 }

@@ -18,6 +18,7 @@ class SplashView extends StatelessWidget {
       viewModelBuilder: () => SplashViewModel(),
       onViewModelReady: (viewModel) => viewModel.init(),
       builder: (context, viewModel, child) {
+        // TODO: Add animation
         return Scaffold(
           body: Center(
             child: Column(

@@ -70,6 +70,7 @@ class HomeView extends StatelessWidget {
                         onSubmitted: viewModel.onSearchTextSubmitted,
                       ),
                       const VerticalGap(15),
+                      // TODO: Add loading on search button
                       CustomElevatedButton(
                         label: 'Search',
                         onPressed: viewModel.searchIsEmptyError

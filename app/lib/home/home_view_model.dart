@@ -36,14 +36,14 @@ class HomeViewModel extends BaseViewModel {
   }
 
   void onSearchTextSubmitted(String? text) {
-    handleSearch();
+    _handleSearch();
   }
 
   void onSearchPressed() {
-    handleSearch();
+    _handleSearch();
   }
 
-  void handleSearch() {
+  void _handleSearch() {
     collapseKeyboard(context);
     if (!_searchIsEmptyError) {
       List<AyatModel> searchResults =
@@ -62,10 +62,10 @@ class HomeViewModel extends BaseViewModel {
   }
 
   Future<void> onReadQuranPressed() async {
-    await showReadingModeOptionsDialog();
+    await _showReadingModeOptionsDialog();
   }
 
-  Future<void> showReadingModeOptionsDialog() async {
+  Future<void> _showReadingModeOptionsDialog() async {
     await _dialogService.showCustomDialog(
       barrierDismissible: true,
       variant: DialogType.options,

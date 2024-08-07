@@ -40,11 +40,25 @@ class AyatListView extends StatelessWidget {
                         ghostAnimation,
                         width: 192.w,
                       ),
-                      const CustomText(
-                        'No ayats found! Try again',
-                        size: 15,
-                        font: poppinsRegular,
-                        color: darkGray,
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          const CustomText(
+                            'No ayats found! ',
+                            size: 15,
+                            font: poppinsMedium,
+                            color: darkGray,
+                          ),
+                          InkWell(
+                            onTap: viewModel.onTryAgainTap,
+                            child: const CustomText(
+                              'Try again',
+                              size: 15,
+                              font: poppinsSemiBold,
+                              color: green,
+                            ),
+                          ),
+                        ],
                       ),
                       const VerticalGap(96),
                     ],

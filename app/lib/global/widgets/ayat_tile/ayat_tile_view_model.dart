@@ -29,6 +29,7 @@ class AyatTileViewModel extends BaseViewModel {
     await _bottomSheetService.showCustomSheet(
       variant: BottomSheetType.note,
       barrierDismissible: true,
+      enableDrag: true,
     );
   }
 }

@@ -46,6 +46,7 @@ class _SearchTextFieldState extends State<SearchTextField> {
         borderRadius: BorderRadius.circular(8.r),
       ),
       child: TextFormField(
+        focusNode: _focusNode,
         style: TextStyle(
           fontFamily: amiriRegular,
           fontSize: 15.sp,
@@ -56,7 +57,6 @@ class _SearchTextFieldState extends State<SearchTextField> {
           border: InputBorder.none,
           prefixIcon: Icon(
             Icons.search,
-            // TODO: Search prefix icon color change
             color: _isFocused ? brown : darkGray,
             size: 20.w,
           ),

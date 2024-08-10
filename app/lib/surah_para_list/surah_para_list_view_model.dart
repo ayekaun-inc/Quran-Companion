@@ -56,6 +56,10 @@ class SurahParaListViewModel extends BaseViewModel {
   }
 
   void onTileTap(int id, String name) {
+    _navigateToSelectedSurahPara(id, name);
+  }
+
+  void _navigateToSelectedSurahPara(int id, String name) {
     List<AyatModel> surahParaAyats =
         _ayatRepository.getAyatBySurahPara(mode, id + 1);
 

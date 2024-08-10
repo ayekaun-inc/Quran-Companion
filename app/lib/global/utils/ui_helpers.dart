@@ -1,12 +1,16 @@
-import 'package:quran_companion/global/themes/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:quran_companion/global/themes/colors.dart';
 
-void setStatusBarTransparent() {
+void setSystemOverlayStyle() {
   SystemChrome.setSystemUIOverlayStyle(
     const SystemUiOverlayStyle(
       statusBarColor: transparent,
       statusBarIconBrightness: Brightness.dark,
+      statusBarBrightness: Brightness.light,
+      systemNavigationBarColor: transparent,
+      systemNavigationBarDividerColor: transparent,
+      systemNavigationBarIconBrightness: Brightness.dark,
     ),
   );
 }

@@ -12,8 +12,6 @@ import 'package:quran_companion/global/widgets/vertical_gap.dart';
 import 'package:flutter/material.dart';
 import 'package:stacked/stacked.dart';
 
-import '../custom_action_button.dart';
-
 class AyatTile extends StatelessWidget {
   final int number;
   final String arabic;
@@ -49,7 +47,7 @@ class AyatTile extends StatelessWidget {
                 child: Row(
                   children: [
                     const HorizontalGap(8.25),
-                    CustomActionButton(
+                    _CustomActionButton(
                       tooltip: 'Make a note',
                       onTap: viewModel.onMakeNoteTap,
                       child: Center(
@@ -58,7 +56,7 @@ class AyatTile extends StatelessWidget {
                         ),
                       ),
                     ),
-                    CustomActionButton(
+                    _CustomActionButton(
                       tooltip: 'Save as PDF',
                       onTap: () {},
                       child: SizedBox(
@@ -70,15 +68,15 @@ class AyatTile extends StatelessWidget {
                       ),
                     ),
                     const Spacer(),
-                    AyatNumber(number: number),
+                    _AyatNumber(number: number),
                     const HorizontalGap(16),
                   ],
                 ),
               ),
               const VerticalGap(27),
-              ArabicText(arabic: arabic),
+              _ArabicText(arabic: arabic),
               const VerticalGap(16),
-              UrduText(urdu: urdu, highlightedWord: highlightedWord),
+              _UrduText(urdu: urdu, highlightedWord: highlightedWord),
               const VerticalGap(34),
               const CustomDivider(leftGap: 0, rightGap: 0),
             ],
@@ -89,9 +87,8 @@ class AyatTile extends StatelessWidget {
   }
 }
 
-class AyatNumber extends StatelessWidget {
-  const AyatNumber({
-    super.key,
+class _AyatNumber extends StatelessWidget {
+  const _AyatNumber({
     required this.number,
   });
 
@@ -121,9 +118,8 @@ class AyatNumber extends StatelessWidget {
   }
 }
 
-class UrduText extends StatelessWidget {
-  const UrduText({
-    super.key,
+class _UrduText extends StatelessWidget {
+  const _UrduText({
     required this.urdu,
     required this.highlightedWord,
   });
@@ -147,9 +143,8 @@ class UrduText extends StatelessWidget {
   }
 }
 
-class ArabicText extends StatelessWidget {
-  const ArabicText({
-    super.key,
+class _ArabicText extends StatelessWidget {
+  const _ArabicText({
     required this.arabic,
   });
 
@@ -165,6 +160,34 @@ class ArabicText extends StatelessWidget {
         font: amiriBold,
         color: brown,
         textAlign: TextAlign.right,
+      ),
+    );
+  }
+}
+
+class _CustomActionButton extends StatelessWidget {
+  final Widget child;
+  final void Function()? onTap;
+  final String? tooltip;
+  const _CustomActionButton({
+    required this.child,
+    required this.onTap,
+    this.tooltip,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Tooltip(
+      message: tooltip,
+      child: InkWell(
+        onTap: onTap,
+        borderRadius: BorderRadius.circular(10.r),
+        splashColor: green.withOpacity(0.1),
+        child: SizedBox(
+          width: 30.5.w,
+          height: 30.5.h,
+          child: child,
+        ),
       ),
     );
   }

@@ -12,6 +12,6 @@ Future<void> main() async {
   await setUpServiceLocator();
   setupDialogUI();
   setupBottomSheetUI();
-  setStatusBarTransparent();
+  setSystemOverlayStyle();
   runApp(const App());
 }

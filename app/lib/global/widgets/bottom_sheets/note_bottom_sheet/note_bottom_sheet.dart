@@ -25,7 +25,10 @@ class NoteBottomSheet extends StatelessWidget {
     int data = request.data as int;
 
     return ViewModelBuilder.reactive(
-      viewModelBuilder: () => NoteBottomSheetViewModel(ayatNumber: data),
+      viewModelBuilder: () => NoteBottomSheetViewModel(
+        ayatNumber: data,
+        completer: completer,
+      ),
       onViewModelReady: (viewModel) => viewModel.init(),
       builder: (context, viewModel, child) {
         return SafeArea(

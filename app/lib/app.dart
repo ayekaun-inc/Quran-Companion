@@ -1,4 +1,5 @@
 import 'package:quran_companion/global/services/size_helper_service.dart';
+import 'package:quran_companion/global/setup/snackbar_setup.dart';
 import 'package:quran_companion/global/utils/routes.dart';
 import 'package:quran_companion/global/themes/light_theme/light_theme.dart';
 import 'package:quran_companion/services_locator.dart';
@@ -11,6 +12,7 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     locator<SizeHelperService>().init(context);
+    setupSnackbarUI();
     return MaterialApp(
       title: 'Quran Companion',
       theme: LightTheme.theme,

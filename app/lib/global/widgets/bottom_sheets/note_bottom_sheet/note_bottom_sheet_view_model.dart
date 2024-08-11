@@ -1,13 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:quran_companion/global/setup/local_storage_setup.dart';
-import 'package:quran_companion/global/utils/ui_helpers.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:stacked/stacked.dart';
+import 'package:stacked_services/stacked_services.dart';
 
 class NoteBottomSheetViewModel extends BaseViewModel {
-  NoteBottomSheetViewModel({required this.ayatNumber});
+  NoteBottomSheetViewModel({
+    required this.ayatNumber,
+    required this.completer,
+  });
 
   final int ayatNumber;
+  final void Function(SheetResponse<void>) completer;
   final SharedPreferences _preferences = LocalStorage.preferences!;
   final TextEditingController _controller = TextEditingController();
 
@@ -54,14 +58,11 @@ class NoteBottomSheetViewModel extends BaseViewModel {
 
   Future<void> onSavePressed() async {
     _setIsSavingNote(true);
-    await simulateLoading();
-    await _saveNote();
-    _text = _fetchNoteText(ayatNumber);
-    _setIsTextDifferent(false);
-    _setIsSavingNote(false);
+    bool confirmed = await _saveNote();
+    completer(SheetResponse(confirmed: confirmed));
   }
 
-  Future<void> _saveNote() async {
-    await _preferences.setString('QC-$ayatNumber', _controller.text);
+  Future<bool> _saveNote() async {
+    return _preferences.setString('QC-$ayatNumber', _controller.text);
   }
 }

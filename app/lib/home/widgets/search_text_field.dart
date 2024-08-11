@@ -46,6 +46,7 @@ class _SearchTextFieldState extends State<SearchTextField> {
         borderRadius: BorderRadius.circular(8.r),
       ),
       child: TextFormField(
+        keyboardType: TextInputType.text,
         focusNode: _focusNode,
         style: TextStyle(
           fontFamily: amiriRegular,

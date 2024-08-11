@@ -5,6 +5,7 @@ import 'package:quran_companion/global/widgets/custom_text.dart';
 import 'package:flutter/material.dart';
 
 class CustomElevatedButton extends StatelessWidget {
+  // TODO: Change to child widget for loading indicator
   final String label;
   final double labelSize;
   final void Function()? onPressed;

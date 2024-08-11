@@ -24,8 +24,8 @@ class SplashView extends StatelessWidget {
               opacity: viewModel.opacity,
               duration: const Duration(milliseconds: 666),
               child: Column(
-                mainAxisSize: MainAxisSize.min,
                 children: [
+                  const Flexible(child: Align(child: SizedBox.shrink())),
                   SvgPicture.asset(
                     appIcon,
                     width: 135.w,
@@ -36,6 +36,23 @@ class SplashView extends StatelessWidget {
                     size: 23,
                     font: poppinsMedium,
                     color: brown,
+                  ),
+                  Flexible(
+                    child: Align(
+                      alignment: Alignment.bottomCenter,
+                      child: Column(
+                        mainAxisSize: MainAxisSize.min,
+                        children: [
+                          CustomText(
+                            'Version ${viewModel.appVersion}',
+                            size: 14,
+                            font: poppinsMedium,
+                            color: brown.withOpacity(0.4),
+                          ),
+                          const VerticalGap(33),
+                        ],
+                      ),
+                    ),
                   ),
                 ],
               ),

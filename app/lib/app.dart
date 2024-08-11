@@ -12,12 +12,12 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     locator<SizeHelperService>().init(context);
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
       title: 'Quran Companion',
       theme: LightTheme.theme,
       initialRoute: splashView,
       onGenerateRoute: RoutesPath.generateRoute,
       navigatorKey: StackedService.navigatorKey,
+      debugShowCheckedModeBanner: false,
     );
   }
 }

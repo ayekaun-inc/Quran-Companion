@@ -8,10 +8,10 @@ import 'app.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await LocalStorage.initializeSharedPreferences();
   await setUpServiceLocator();
+  setSystemOverlayStyle();
   setupDialogUI();
   setupBottomSheetUI();
-  setSystemOverlayStyle();
+  await LocalStorage.initializeSharedPreferences();
   runApp(const App());
 }

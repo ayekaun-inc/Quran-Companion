@@ -18,3 +18,9 @@ void setSystemOverlayStyle() {
 void collapseKeyboard(BuildContext context) {
   FocusScope.of(context).unfocus();
 }
+
+Future<void> simulateLoading({
+  Duration duration = const Duration(seconds: 3),
+}) async {
+  await Future.delayed(duration);
+}

@@ -70,13 +70,16 @@ class HomeView extends StatelessWidget {
                         onSubmitted: viewModel.onSearchTextSubmitted,
                       ),
                       const VerticalGap(15),
-                      // TODO: Add loading on search button
                       CustomElevatedButton(
-                        label: 'Search',
-                        onPressed: viewModel.searchIsEmptyError
+                        label: viewModel.isSearching ? 'Searching' : 'Search',
+                        onPressed: viewModel.searchIsEmptyError ||
+                                viewModel.isSearching
                             ? null
-                            : viewModel.onSearchPressed,
-                        color: viewModel.searchIsEmptyError ? darkGray : green,
+                            : viewModel.onSearchPress,
+                        color: viewModel.searchIsEmptyError ||
+                                viewModel.isSearching
+                            ? darkGray
+                            : green,
                       ),
                       const VerticalGap(45),
                       const CustomText(

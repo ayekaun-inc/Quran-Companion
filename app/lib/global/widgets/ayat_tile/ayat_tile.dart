@@ -28,7 +28,7 @@ class AyatTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ViewModelBuilder.reactive(
-      viewModelBuilder: () => AyatTileViewModel(),
+      viewModelBuilder: () => AyatTileViewModel(ayatNumber: number),
       builder: (context, viewModel, child) {
         return HorizontalPadding(
           padding: 27.w,
@@ -51,9 +51,9 @@ class AyatTile extends StatelessWidget {
                       tooltip: 'Make a note',
                       onTap: viewModel.onMakeNoteTap,
                       child: Center(
-                        child: SvgPicture.asset(
-                          noteIcon,
-                        ),
+                        child: viewModel.isMakingNote
+                            ? const _CustomLoadingIndicator()
+                            : SvgPicture.asset(noteIcon),
                       ),
                     ),
                     _CustomActionButton(
@@ -187,6 +187,24 @@ class _CustomActionButton extends StatelessWidget {
           width: 30.5.w,
           height: 30.5.h,
           child: child,
+        ),
+      ),
+    );
+  }
+}
+
+class _CustomLoadingIndicator extends StatelessWidget {
+  const _CustomLoadingIndicator();
+
+  @override
+  Widget build(BuildContext context) {
+    return Center(
+      child: SizedBox(
+        width: 13.5.w,
+        height: 13.5.w,
+        child: CircularProgressIndicator(
+          color: green,
+          strokeWidth: 2.w,
         ),
       ),
     );

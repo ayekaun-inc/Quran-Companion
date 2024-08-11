@@ -25,6 +25,13 @@ class HomeViewModel extends BaseViewModel {
   bool _searchIsEmptyError = true;
   bool get searchIsEmptyError => _searchIsEmptyError;
 
+  bool _isSearching = false;
+  bool get isSearching => _isSearching;
+  void _setIsSearching(bool val) {
+    _isSearching = val;
+    rebuildUi();
+  }
+
   void _validateSearchText() {
     _searchIsEmptyError = _searchText.isEmpty;
     rebuildUi();
@@ -39,16 +46,18 @@ class HomeViewModel extends BaseViewModel {
     _handleSearch();
   }
 
-  void onSearchPressed() {
+  void onSearchPress() {
     _handleSearch();
   }
 
-  void _handleSearch() {
+  Future<void> _handleSearch() async {
     collapseKeyboard(context);
     if (!_searchIsEmptyError) {
+      _setIsSearching(true);
       List<AyatModel> searchResults =
           _ayatRepository.getAyatByUrdu(_searchText);
-
+      await simulateLoading(duration: const Duration(seconds: 1));
+      _setIsSearching(false);
       _navigationService.navigateTo(
         ayatListView,
         arguments: AyatListViewArguments(

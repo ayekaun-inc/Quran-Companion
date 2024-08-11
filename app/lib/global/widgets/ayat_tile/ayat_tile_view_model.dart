@@ -5,31 +5,33 @@ import 'package:stacked_services/stacked_services.dart';
 
 class AyatTileViewModel extends BaseViewModel {
   final BottomSheetService _bottomSheetService = locator<BottomSheetService>();
+
+  bool _isMakingNote = false;
+
+  bool get isMakingNote => _isMakingNote;
+
+  final int ayatNumber;
+  AyatTileViewModel({required this.ayatNumber});
+
   Future<void> onMakeNoteTap() async {
-    /// set isNoting to true for loading and on tap null
-    ///
-    /// Check for pre-existing note
-    /// if exists, show bottom sheet with it
-    /// if doesnt exist, show bottom sheet without it and with hint text
-    ///
-    /// ontextchange
-    /// if not same as before save button enabled
-    ///
-    /// on save press, if enabled, save note, show snackbar note saved, disable button
-    ///
-    /// set isNoting to false for loading done and on tap not null
-    ///
-    /// on press close if changes not saved show disclaimer are you sure typpa alert dialog
+    _setIsMakingNote(true);
     await _showNoteDialog();
+    _setIsMakingNote(false);
   }
 
-  void onSavePdfTap() {}
+  void _setIsMakingNote(bool val) {
+    _isMakingNote = val;
+    rebuildUi();
+  }
 
   Future<void> _showNoteDialog() async {
     await _bottomSheetService.showCustomSheet(
       variant: BottomSheetType.note,
       barrierDismissible: true,
       enableDrag: true,
+      data: ayatNumber,
     );
   }
+
+  void onSavePdfTap() {}
 }

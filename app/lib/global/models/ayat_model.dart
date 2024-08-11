@@ -7,14 +7,15 @@ class AyatModel {
   int? paraId;
   String? paraName;
 
-  AyatModel(
-      {this.urdu,
-      this.arabic,
-      this.ayatId,
-      this.surahId,
-      this.surahName,
-      this.paraId,
-      this.paraName});
+  AyatModel({
+    this.urdu,
+    this.arabic,
+    this.ayatId,
+    this.surahId,
+    this.surahName,
+    this.paraId,
+    this.paraName,
+  });
 
   AyatModel.fromJson(Map<String, dynamic> json) {
     urdu = json['urdu'];

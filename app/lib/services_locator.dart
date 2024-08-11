@@ -6,8 +6,8 @@ final GetIt locator = GetIt.instance;
 
 Future<void> setUpServiceLocator() async {
   // Services
+  locator.registerSingleton<SizeHelperService>(SizeHelperService());
   locator.registerLazySingleton(() => DialogService());
   locator.registerLazySingleton(() => BottomSheetService());
   locator.registerLazySingleton(() => NavigationService());
-  locator.registerSingleton<SizeHelperService>(SizeHelperService());
 }

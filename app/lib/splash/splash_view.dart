@@ -20,21 +20,42 @@ class SplashView extends StatelessWidget {
       builder: (context, viewModel, child) {
         return Scaffold(
           body: Center(
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                SvgPicture.asset(
-                  appIcon,
-                  width: 135.w,
-                ),
-                const VerticalGap(18.5),
-                const CustomText(
-                  'The Quran Companion',
-                  size: 23,
-                  font: poppinsMedium,
-                  color: brown,
-                ),
-              ],
+            child: AnimatedOpacity(
+              opacity: viewModel.opacity,
+              duration: const Duration(milliseconds: 666),
+              child: Column(
+                children: [
+                  const Flexible(child: Align(child: SizedBox.shrink())),
+                  SvgPicture.asset(
+                    appIcon,
+                    width: 135.w,
+                  ),
+                  const VerticalGap(18.5),
+                  const CustomText(
+                    'The Quran Companion',
+                    size: 23,
+                    font: poppinsMedium,
+                    color: brown,
+                  ),
+                  Flexible(
+                    child: Align(
+                      alignment: Alignment.bottomCenter,
+                      child: Column(
+                        mainAxisSize: MainAxisSize.min,
+                        children: [
+                          CustomText(
+                            'Version ${viewModel.appVersion}',
+                            size: 14,
+                            font: poppinsMedium,
+                            color: brown.withOpacity(0.4),
+                          ),
+                          const VerticalGap(33),
+                        ],
+                      ),
+                    ),
+                  ),
+                ],
+              ),
             ),
           ),
         );

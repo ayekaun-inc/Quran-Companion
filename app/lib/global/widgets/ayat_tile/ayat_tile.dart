@@ -50,21 +50,18 @@ class AyatTile extends StatelessWidget {
                     _CustomActionButton(
                       tooltip: 'Make a note',
                       onTap: viewModel.onMakeNoteTap,
-                      child: Center(
-                        child: viewModel.isMakingNote
-                            ? const _CustomLoadingIndicator()
-                            : SvgPicture.asset(noteIcon),
-                      ),
+                      child: viewModel.isMakingNote
+                          ? const _CustomLoadingIndicator()
+                          : Center(child: SvgPicture.asset(noteIcon)),
                     ),
                     _CustomActionButton(
                       tooltip: 'Save as PDF',
-                      onTap: () {},
+                      onTap: viewModel.onSavePdfTap,
                       child: SizedBox(
                         width: 21.w,
-                        child: const Icon(
-                          Icons.save_alt_rounded,
-                          color: green,
-                        ),
+                        child: viewModel.isSavingPDF
+                            ? const _CustomLoadingIndicator()
+                            : const Icon(Icons.save_alt_rounded, color: green),
                       ),
                     ),
                     const Spacer(),
@@ -182,7 +179,7 @@ class _CustomActionButton extends StatelessWidget {
       child: InkWell(
         onTap: onTap,
         borderRadius: BorderRadius.circular(10.r),
-        splashColor: green.withOpacity(0.1),
+        splashColor: green.withOpacity(0.12),
         child: SizedBox(
           width: 30.5.w,
           height: 30.5.h,

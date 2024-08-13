@@ -28,7 +28,11 @@ class AyatTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ViewModelBuilder.reactive(
-      viewModelBuilder: () => AyatTileViewModel(ayatNumber: number),
+      viewModelBuilder: () => AyatTileViewModel(
+        ayatNumber: number,
+        arabic: arabic,
+        urdu: urdu,
+      ),
       builder: (context, viewModel, child) {
         return HorizontalPadding(
           padding: 27.w,
@@ -55,13 +59,17 @@ class AyatTile extends StatelessWidget {
                           : Center(child: SvgPicture.asset(noteIcon)),
                     ),
                     _CustomActionButton(
-                      tooltip: 'Save as PDF',
-                      onTap: viewModel.onSavePdfTap,
+                      tooltip: 'Share as PDF',
+                      onTap: viewModel.onSharePDFTap,
                       child: SizedBox(
                         width: 21.w,
                         child: viewModel.isSavingPDF
                             ? const _CustomLoadingIndicator()
-                            : const Icon(Icons.save_alt_rounded, color: green),
+                            : Icon(
+                                Icons.share_outlined,
+                                color: green,
+                                size: 20.w,
+                              ),
                       ),
                     ),
                     const Spacer(),

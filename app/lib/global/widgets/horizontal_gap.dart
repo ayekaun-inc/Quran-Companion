@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:quran_companion/global/services/size_helper_service.dart';
 
 class HorizontalGap extends StatelessWidget {
   final double width;
@@ -6,6 +7,6 @@ class HorizontalGap extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SizedBox(width: width);
+    return SizedBox(width: width.w);
   }
 }

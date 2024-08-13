@@ -1,6 +1,10 @@
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/widgets.dart';
+import 'package:flutter_svg/svg.dart';
 import 'package:quran_companion/global/services/size_helper_service.dart';
 import 'package:quran_companion/global/themes/colors.dart';
 import 'package:quran_companion/global/themes/fonts.dart';
+import 'package:quran_companion/global/utils/svg_constants.dart';
 import 'package:quran_companion/global/widgets/custom_text.dart';
 import 'package:quran_companion/global/widgets/horizontal_padding.dart';
 import 'package:quran_companion/global/widgets/vertical_gap.dart';
@@ -40,20 +44,13 @@ class HomeView extends StatelessWidget {
                         ],
                       ),
                       const VerticalGap(13.5),
-                      Container(
-                        width: double.maxFinite,
-                        height: 208.h,
-                        decoration: BoxDecoration(
-                          color: green,
+                      Align(
+                        alignment: Alignment.center,
+                        child: ClipRRect(
                           borderRadius: BorderRadius.circular(10.r),
-                        ),
-                        child: const Center(
-                          child: CustomText(
-                            // TODO: Add home picture
-                            'Picture to be added...',
-                            size: 12,
-                            font: poppinsRegular,
-                            color: white,
+                          child: SvgPicture.asset(
+                            homeBanner,
+                            width: MediaQuery.sizeOf(context).width.w - 63.w,
                           ),
                         ),
                       ),

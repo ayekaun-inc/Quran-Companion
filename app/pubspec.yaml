@@ -15,6 +15,7 @@ dependencies:
   package_info_plus: ^8.0.2
   path_provider: ^2.1.4
   pdf: ^3.11.1
+  permission_handler: ^11.3.1
   shared_preferences: ^2.2.3
   stacked: ^3.4.3
   stacked_services: ^1.5.0

@@ -35,7 +35,7 @@ class AyatTile extends StatelessWidget {
       ),
       builder: (context, viewModel, child) {
         return HorizontalPadding(
-          padding: 27.w,
+          padding: 27,
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
             mainAxisSize: MainAxisSize.min,

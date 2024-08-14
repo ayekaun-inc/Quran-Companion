@@ -1,5 +1,3 @@
-import 'package:flutter/cupertino.dart';
-import 'package:flutter/widgets.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:quran_companion/global/services/size_helper_service.dart';
 import 'package:quran_companion/global/themes/colors.dart';
@@ -32,27 +30,19 @@ class HomeView extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       const VerticalGap(13.5),
-                      const Row(
-                        mainAxisAlignment: MainAxisAlignment.end,
-                        children: [
-                          CustomText(
-                            'The Quran Companion',
-                            size: 15,
-                            font: poppinsSemiBold,
-                            color: brown,
-                          ),
-                        ],
+                      const Align(
+                        alignment: Alignment.centerRight,
+                        child: CustomText(
+                          'The Quran Companion',
+                          size: 15,
+                          font: poppinsSemiBold,
+                          color: brown,
+                        ),
                       ),
                       const VerticalGap(13.5),
-                      Align(
+                      const Align(
                         alignment: Alignment.center,
-                        child: ClipRRect(
-                          borderRadius: BorderRadius.circular(10.r),
-                          child: SvgPicture.asset(
-                            homeBanner,
-                            width: MediaQuery.sizeOf(context).width.w - 63.w,
-                          ),
-                        ),
+                        child: _CachedHomeBanner(),
                       ),
                       const VerticalGap(15),
                       const CustomText(
@@ -98,6 +88,33 @@ class HomeView extends StatelessWidget {
           ),
         );
       },
+    );
+  }
+}
+
+class _CachedHomeBanner extends StatelessWidget {
+  const _CachedHomeBanner();
+
+  @override
+  Widget build(BuildContext context) {
+    return Stack(
+      children: [
+        Container(
+          width: MediaQuery.sizeOf(context).width.w - 63.w,
+          height: MediaQuery.sizeOf(context).width.w - 63.w,
+          decoration: BoxDecoration(
+            color: purple,
+            borderRadius: BorderRadius.circular(10.r),
+          ),
+        ),
+        ClipRRect(
+          borderRadius: BorderRadius.circular(10.r),
+          child: SvgPicture.asset(
+            homeBanner,
+            width: MediaQuery.sizeOf(context).width.w - 63.w,
+          ),
+        ),
+      ],
     );
   }
 }

@@ -8,3 +8,4 @@ const Color darkGray = Color(0xFFC3C3C3);
 const Color transparent = Color(0x00000000);
 const Color shadow = Color(0xFFBAB0CE);
 const Color red = Color(0xFFF44336);
+const Color purple = Color(0xFF672CBC);

@@ -1,4 +1,4 @@
-name: CI/CD Workflow with Relaxed Linting
+name: Flutter Lint and Version Check
 
 on:
   pull_request:

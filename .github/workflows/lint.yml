@@ -17,7 +17,6 @@ jobs:
         uses: subosito/flutter-action@v2
         with:
           flutter-version: '3.19.4'
-          dart-version: '3.3.2'
 
       - name: Change to app directory
         run: cd app

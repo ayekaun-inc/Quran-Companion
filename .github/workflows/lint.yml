@@ -21,6 +21,9 @@ jobs:
       - name: Change to app directory
         run: cd app
 
+      - name: Get dependencies
+        run: flutter pub get
+
       - name: Run Flutter Analyzer
         run: |
           flutter analyze > analysis_result.txt

@@ -1,7 +1,7 @@
 name: quran_companion
 description: "A new Flutter project."
 publish_to: 'none'
-version: 0.7.1+1
+version: 0.7.1+2
 
 environment:
   sdk: '>=3.3.2 <4.0.0'

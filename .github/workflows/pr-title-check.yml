@@ -1,0 +1,28 @@
+name: PR Title Check
+
+on:
+  pull_request:
+    types: [opened, edited]
+
+jobs:
+  check-title:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check PR title
+        run: |
+          if [[ ! "${{ github.event.pull_request.title }}" =~ ^QC- ]]; then
+            echo "Error: PR title does not start with 'QC-'."
+            echo "Please update the PR title to follow the naming convention."
+            exit 1
+          else
+            echo "PR title follows the naming convention."
+          fi
+
+      - name: Comment on PR if title is incorrect
+        if: failure()
+        run: |
+          curl -X POST -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+          -H "Content-Type: application/json" \
+          -d '{"body": "The title of this PR does not follow the required naming convention. Please ensure the title starts with `QC-`."}' \
+          "${{ github.event.pull_request.comments_url }}"

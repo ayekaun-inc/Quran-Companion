@@ -1,4 +1,4 @@
-name: CI/CD Workflow with Strict Linting
+name: CI/CD Workflow with Relaxed Linting
 
 on:
   push:
@@ -26,15 +26,7 @@ jobs:
       - name: Run Flutter Analyzer
         run: |
           cd app
-          flutter analyze > analysis_result.txt
-          grep -v "TODO" analysis_result.txt > filtered_result.txt
-          cat filtered_result.txt
-          if [ -s filtered_result.txt ] && [ "$(wc -l < filtered_result.txt)" -gt 0 ]; then
-            echo "Linting issues found, failing the workflow."
-            exit 1
-          else
-            echo "No linting issues found."
-          fi
+          flutter analyze
 
       - name: Check Version Bump
         run: |

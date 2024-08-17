@@ -9,12 +9,33 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import '../../global/widgets/custom_divider.dart';
 
+/// A widget that represents a tile displaying a Surah or Para in the Quran.
+///
+/// The `SurahParaTile` widget provides a standardized way to display a Surah or Para
+/// in a list, including its number, title, subtitle, and Arabic name. It also includes
+/// a decorative star icon with the Surah/Para number at the center.
+///
+/// The tile is tappable, triggering the provided [onTap] callback when pressed.
 class SurahParaTile extends StatelessWidget {
+  /// The number of the Surah or Para.
   final int number;
+
+  /// The English title of the Surah or Para.
   final String title;
+
+  /// The subtitle providing additional information, such as the number of verses.
   final String subtitle;
+
+  /// The Arabic name of the Surah or Para.
   final String arabic;
+
+  /// The callback function triggered when the tile is tapped.
   final void Function()? onTap;
+
+  /// Creates a `SurahParaTile` widget with the specified properties.
+  ///
+  /// The [number], [title], [subtitle], and [arabic] are required.
+  /// The [onTap] callback is optional and can be used to handle tile tap events.
   const SurahParaTile({
     super.key,
     required this.number,
@@ -30,8 +51,9 @@ class SurahParaTile extends StatelessWidget {
       onTap: onTap,
       child: Column(
         children: [
+          // Add a divider between tiles, except for the first tile.
           if (number != 1) ...[
-            const CustomDivider(leftGap: 20, rightGap: 24),
+            const CustomDivider(leadingIndent: 20, trailingIndent: 24),
           ],
           SizedBox(
             width: double.maxFinite,

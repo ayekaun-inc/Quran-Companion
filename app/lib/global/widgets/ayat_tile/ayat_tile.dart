@@ -12,11 +12,28 @@ import 'package:quran_companion/global/widgets/vertical_gap.dart';
 import 'package:flutter/material.dart';
 import 'package:stacked/stacked.dart';
 
+/// A widget that displays an Ayat (verse) with various options and translations.
+///
+/// The `AyatTile` widget includes the Ayat number, Arabic text, Urdu translation,
+/// and options for making notes or sharing the Ayat as a PDF. It uses the `AyatTileViewModel`
+/// for managing its state and handling user interactions.
 class AyatTile extends StatelessWidget {
+  /// The Ayat (verse) number.
   final int number;
+
+  /// The Arabic text of the Ayat.
   final String arabic;
+
+  /// The Urdu translation of the Ayat.
   final String urdu;
+
+  /// An optional word in the Urdu text to highlight.
   final String? highlightedWord;
+
+  /// Creates an `AyatTile` widget with the specified properties.
+  ///
+  /// The [number], [arabic], and [urdu] parameters are required.
+  /// The [highlightedWord] is optional and can be used to highlight specific words in the Urdu text.
   const AyatTile({
     super.key,
     required this.number,
@@ -83,7 +100,7 @@ class AyatTile extends StatelessWidget {
               const VerticalGap(16),
               _UrduText(urdu: urdu, highlightedWord: highlightedWord),
               const VerticalGap(34),
-              const CustomDivider(leftGap: 0, rightGap: 0),
+              const CustomDivider(leadingIndent: 0, trailingIndent: 0),
             ],
           ),
         );
@@ -92,12 +109,17 @@ class AyatTile extends StatelessWidget {
   }
 }
 
+/// A widget that displays the Ayat number with a styled background.
+///
+/// This widget is used to visually emphasize the Ayat number within the `AyatTile`.
 class _AyatNumber extends StatelessWidget {
+  /// The Ayat number to display.
+  final int number;
+
+  /// Creates an `_AyatNumber` widget with the specified [number].
   const _AyatNumber({
     required this.number,
   });
-
-  final int number;
 
   @override
   Widget build(BuildContext context) {
@@ -123,14 +145,22 @@ class _AyatNumber extends StatelessWidget {
   }
 }
 
+/// A widget that displays the Urdu translation of the Ayat with optional highlighting.
+///
+/// This widget is used to render the Urdu translation in the `AyatTile`, with an
+/// option to highlight a specific word.
 class _UrduText extends StatelessWidget {
+  /// The Urdu translation of the Ayat.
+  final String urdu;
+
+  /// An optional word to highlight within the Urdu text.
+  final String? highlightedWord;
+
+  /// Creates an `_UrduText` widget with the specified [urdu] text and an optional [highlightedWord].
   const _UrduText({
     required this.urdu,
     required this.highlightedWord,
   });
-
-  final String urdu;
-  final String? highlightedWord;
 
   @override
   Widget build(BuildContext context) {
@@ -148,12 +178,17 @@ class _UrduText extends StatelessWidget {
   }
 }
 
+/// A widget that displays the Arabic text of the Ayat.
+///
+/// This widget is used to render the Arabic text in the `AyatTile`, aligning it to the right.
 class _ArabicText extends StatelessWidget {
+  /// The Arabic text of the Ayat.
+  final String arabic;
+
+  /// Creates an `_ArabicText` widget with the specified [arabic] text.
   const _ArabicText({
     required this.arabic,
   });
-
-  final String arabic;
 
   @override
   Widget build(BuildContext context) {
@@ -170,10 +205,21 @@ class _ArabicText extends StatelessWidget {
   }
 }
 
+/// A customizable action button used within the `AyatTile`.
+///
+/// This widget provides an action button with a customizable child widget,
+/// tooltip, and tap callback, wrapped in a styled container.
 class _CustomActionButton extends StatelessWidget {
+  /// The widget displayed inside the button.
   final Widget child;
+
+  /// The callback function triggered when the button is tapped.
   final void Function()? onTap;
+
+  /// An optional tooltip displayed when the user hovers over the button.
   final String? tooltip;
+
+  /// Creates a `_CustomActionButton` widget with the specified [child], [onTap] callback, and an optional [tooltip].
   const _CustomActionButton({
     required this.child,
     required this.onTap,
@@ -198,7 +244,11 @@ class _CustomActionButton extends StatelessWidget {
   }
 }
 
+/// A custom loading indicator used within action buttons in the `AyatTile`.
+///
+/// This widget provides a small circular progress indicator, styled to match the app's theme.
 class _CustomLoadingIndicator extends StatelessWidget {
+  /// Creates a `_CustomLoadingIndicator` widget.
   const _CustomLoadingIndicator();
 
   @override
@@ -206,7 +256,7 @@ class _CustomLoadingIndicator extends StatelessWidget {
     return Center(
       child: SizedBox(
         width: 13.5.w,
-        height: 13.5.w,
+        height: 13.5.h,
         child: CircularProgressIndicator(
           color: green,
           strokeWidth: 2.w,

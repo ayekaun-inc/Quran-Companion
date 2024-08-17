@@ -31,8 +31,8 @@ jobs:
       - name: Check Version Bump
         run: |
           cd app
-          PREV_VERSION=$(git show HEAD~1:app/pubspec.yaml | grep '^version:' | awk '{print $2}')
-          CURR_VERSION=$(grep '^version:' app/pubspec.yaml | awk '{print $2}')
+          PREV_VERSION=$(git log -2 --pretty=%H | tail -n 1 | xargs -I {} git show {}:app/pubspec.yaml | grep '^version:' | awk '{print $2}')
+          CURR_VERSION=$(grep '^version:' pubspec.yaml | awk '{print $2}')
           if [ "$PREV_VERSION" == "$CURR_VERSION" ]; then
             echo "Version has not been bumped. Failing the workflow."
             exit 1

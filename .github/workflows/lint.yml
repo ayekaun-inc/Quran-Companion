@@ -1,0 +1,42 @@
+name: CI/CD Workflow with Strict Linting
+
+on:
+  push:
+    branches: [ "develop" ]
+  pull_request:
+    branches: [ "develop" ]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.19.4'
+          dart-version: '3.3.2'
+
+      - name: Change to app directory
+        run: cd app
+
+      - name: Run Flutter Analyzer
+        run: |
+          flutter analyze > analysis_result.txt
+          grep -v "TODO" analysis_result.txt > filtered_result.txt
+          cat filtered_result.txt
+          if [ -s filtered_result.txt ]; then
+            echo "Linting issues found, failing the workflow."
+            exit 1
+          fi
+
+      - name: Check Version Bump
+        run: |
+          PREV_VERSION=$(git show HEAD~1:app/pubspec.yaml | grep '^version:' | awk '{print $2}')
+          CURR_VERSION=$(grep '^version:' app/pubspec.yaml | awk '{print $2}')
+          if [ "$PREV_VERSION" == "$CURR_VERSION" ]; then
+            echo "Version has not been bumped. Failing the workflow."
+            exit 1
+          fi

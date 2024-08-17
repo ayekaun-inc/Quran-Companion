@@ -18,14 +18,14 @@ jobs:
         with:
           flutter-version: '3.19.4'
 
-      - name: Change to app directory
-        run: cd app
-
       - name: Get dependencies
-        run: flutter pub get
+        run: |
+          cd app
+          flutter pub get
 
       - name: Run Flutter Analyzer
         run: |
+          cd app
           flutter analyze > analysis_result.txt
           grep -v "TODO" analysis_result.txt > filtered_result.txt
           cat filtered_result.txt
@@ -36,6 +36,7 @@ jobs:
 
       - name: Check Version Bump
         run: |
+          cd app
           PREV_VERSION=$(git show HEAD~1:app/pubspec.yaml | grep '^version:' | awk '{print $2}')
           CURR_VERSION=$(grep '^version:' app/pubspec.yaml | awk '{print $2}')
           if [ "$PREV_VERSION" == "$CURR_VERSION" ]; then

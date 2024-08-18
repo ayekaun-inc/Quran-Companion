@@ -4,7 +4,7 @@ import 'package:quran_companion/global/themes/fonts.dart';
 import 'package:quran_companion/global/utils/svg_constants.dart';
 import 'package:quran_companion/global/widgets/custom_text.dart';
 import 'package:quran_companion/global/widgets/vertical_gap.dart';
-import 'package:quran_companion/splash/splash_view_model.dart';
+import 'package:quran_companion/views/splash/splash_view_model.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:stacked/stacked.dart';

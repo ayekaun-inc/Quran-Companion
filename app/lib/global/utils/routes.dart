@@ -1,9 +1,9 @@
 import 'package:quran_companion/global/models/ayat_list_view_arguments.dart';
 import 'package:quran_companion/global/utils/enums.dart';
-import 'package:quran_companion/home/home_view.dart';
-import 'package:quran_companion/ayat_list/ayat_list_view.dart';
-import 'package:quran_companion/splash/splash_view.dart';
-import 'package:quran_companion/surah_para_list/surah_para_list_view.dart';
+import 'package:quran_companion/views/home/home_view.dart';
+import 'package:quran_companion/views/ayat_list/ayat_list_view.dart';
+import 'package:quran_companion/views/splash/splash_view.dart';
+import 'package:quran_companion/views/surah_para_list/surah_para_list_view.dart';
 import 'package:flutter/material.dart';
 
 const String splashView = '/splash';

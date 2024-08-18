@@ -6,13 +6,13 @@ import 'package:quran_companion/global/themes/fonts.dart';
 import 'package:quran_companion/global/utils/animation_constants.dart';
 import 'package:quran_companion/global/widgets/custom_app_bar.dart';
 import 'package:quran_companion/global/widgets/custom_text.dart';
-import 'package:quran_companion/ayat_list/ayat_list_view_model.dart';
+import 'package:quran_companion/views/ayat_list/ayat_list_view_model.dart';
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 import 'package:quran_companion/services_locator.dart';
 import 'package:stacked/stacked.dart';
 import 'package:stacked_services/stacked_services.dart';
-import '../global/widgets/ayat_tile/ayat_tile.dart';
+import '../../global/widgets/ayat_tile/ayat_tile.dart';
 
 class AyatListView extends StatelessWidget {
   final AyatListViewArguments arguments;

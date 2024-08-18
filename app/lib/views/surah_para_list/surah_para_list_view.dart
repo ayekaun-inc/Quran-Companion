@@ -1,6 +1,6 @@
 import 'package:quran_companion/global/utils/enums.dart';
 import 'package:quran_companion/global/widgets/custom_app_bar.dart';
-import 'package:quran_companion/surah_para_list/surah_para_list_view_model.dart';
+import 'package:quran_companion/views/surah_para_list/surah_para_list_view_model.dart';
 import 'package:flutter/material.dart';
 import 'package:stacked/stacked.dart';
 import 'widgets/surah_para_tile.dart';

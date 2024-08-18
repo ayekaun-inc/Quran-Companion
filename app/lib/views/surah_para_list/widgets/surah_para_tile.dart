@@ -7,7 +7,7 @@ import 'package:quran_companion/global/widgets/horizontal_gap.dart';
 import 'package:quran_companion/global/widgets/vertical_gap.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import '../../global/widgets/custom_divider.dart';
+import '../../../global/widgets/custom_divider.dart';
 
 /// A widget that represents a tile displaying a Surah or Para in the Quran.
 ///

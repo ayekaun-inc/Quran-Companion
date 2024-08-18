@@ -1,6 +1,6 @@
 const List<Map<String, dynamic>> quran = [
   {
-    "urdu": "اللہ کے نام سے جو بہت مہربان، رحم کرنے والا ہے۔",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 1,
     "surah_id": 1,
@@ -72,7 +72,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Alif Laam Meem"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 9,
     "surah_id": 2,
@@ -3213,7 +3213,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Tilka r Rusulu"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 296,
     "surah_id": 3,
@@ -5407,7 +5407,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Lan Tana Loo"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 497,
     "surah_id": 4,
@@ -7345,7 +7345,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "La Yahubbullah"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 674,
     "surah_id": 5,
@@ -8673,7 +8673,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Wa Iza Samiu"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 795,
     "surah_id": 6,
@@ -10495,7 +10495,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Wa Lau Annana"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 961,
     "surah_id": 7,
@@ -12738,7 +12738,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Qalal Malao"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 1168,
     "surah_id": 8,
@@ -14985,7 +14985,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Yatazeroon"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 1373,
     "surah_id": 10,
@@ -16183,7 +16183,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Yatazeroon"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 1483,
     "surah_id": 11,
@@ -17536,7 +17536,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Wa Mamin Da’abat"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 1607,
     "surah_id": 12,
@@ -18754,7 +18754,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Wa Ma Ubiroo"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 1719,
     "surah_id": 13,
@@ -19234,7 +19234,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Wa Ma Ubiroo"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 1763,
     "surah_id": 14,
@@ -19806,7 +19806,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Wa Ma Ubiroo"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 1816,
     "surah_id": 15,
@@ -20813,7 +20813,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Rubama"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 1916,
     "surah_id": 16,
@@ -22220,7 +22220,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Rubama"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 2045,
     "surah_id": 17,
@@ -23444,7 +23444,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Subhanallahzi"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 2157,
     "surah_id": 18,
@@ -24642,7 +24642,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Qal Alam"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 2268,
     "surah_id": 19,
@@ -25704,7 +25704,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Qal Alam"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 2367,
     "surah_id": 20,
@@ -27115,7 +27115,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Qal Alam"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 2503,
     "surah_id": 21,
@@ -28342,7 +28342,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Aqtarabo"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 2616,
     "surah_id": 22,
@@ -29203,7 +29203,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Aqtarabo"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 2695,
     "surah_id": 23,
@@ -30443,7 +30443,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Qadd Aflaha"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 2814,
     "surah_id": 24,
@@ -31156,7 +31156,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Qadd Aflaha"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 2879,
     "surah_id": 25,
@@ -32003,7 +32003,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Wa Qalallazina"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 2957,
     "surah_id": 26,
@@ -34217,7 +34217,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Wa Qalallazina"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 3185,
     "surah_id": 27,
@@ -35239,7 +35239,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "A’man Khalaq"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 3279,
     "surah_id": 28,
@@ -36211,7 +36211,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "A’man Khalaq"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 3368,
     "surah_id": 29,
@@ -36972,7 +36972,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Utlu Ma Oohi"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 3438,
     "surah_id": 30,
@@ -37631,7 +37631,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Utlu Ma Oohi"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 3499,
     "surah_id": 31,
@@ -38008,7 +38008,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Utlu Ma Oohi"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 3534,
     "surah_id": 32,
@@ -38342,7 +38342,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Utlu Ma Oohi"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 3565,
     "surah_id": 33,
@@ -39145,7 +39145,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Wa Manyaqnut"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 3639,
     "surah_id": 34,
@@ -39747,7 +39747,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Wa Manyaqnut"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 3694,
     "surah_id": 35,
@@ -40240,7 +40240,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Wa Manyaqnut"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 3740,
     "surah_id": 36,
@@ -41129,7 +41129,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Wa Mali"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 3824,
     "surah_id": 37,
@@ -42852,7 +42852,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Wa Mali"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 4007,
     "surah_id": 38,
@@ -43768,7 +43768,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Wa Mali"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 4096,
     "surah_id": 39,
@@ -44593,7 +44593,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Faman Azlam"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 4172,
     "surah_id": 40,
@@ -45527,7 +45527,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Faman Azlam"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 4258,
     "surah_id": 41,
@@ -46124,7 +46124,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Elahe Yuruddo"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 4313,
     "surah_id": 42,
@@ -46710,7 +46710,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Elahe Yuruddo"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 4367,
     "surah_id": 43,
@@ -47673,7 +47673,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Elahe Yuruddo"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 4457,
     "surah_id": 44,
@@ -48267,7 +48267,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Elahe Yuruddo"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 4517,
     "surah_id": 45,
@@ -48677,7 +48677,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Elahe Yuruddo"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 4555,
     "surah_id": 46,
@@ -49068,7 +49068,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Ha’a Meem"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 4591,
     "surah_id": 47,
@@ -49492,7 +49492,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Ha’a Meem"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 4630,
     "surah_id": 48,
@@ -49816,7 +49816,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Ha’a Meem"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 4660,
     "surah_id": 49,
@@ -50022,7 +50022,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Ha’a Meem"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 4679,
     "surah_id": 50,
@@ -50502,7 +50502,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Ha’a Meem"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 4725,
     "surah_id": 51,
@@ -51113,7 +51113,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Qala Fama Khatbukum"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 4786,
     "surah_id": 52,
@@ -51617,7 +51617,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Qala Fama Khatbukum"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 4836,
     "surah_id": 53,
@@ -52206,7 +52206,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Qala Fama Khatbukum"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 4899,
     "surah_id": 54,
@@ -52770,7 +52770,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Qala Fama Khatbukum"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 4955,
     "surah_id": 55,
@@ -53502,7 +53502,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Qala Fama Khatbukum"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 5034,
     "surah_id": 56,
@@ -54393,7 +54393,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Qala Fama Khatbukum"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 5131,
     "surah_id": 57,
@@ -54721,7 +54721,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Qala Fama Khatbukum"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 5161,
     "surah_id": 58,
@@ -54972,7 +54972,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Qadd Sami Allah"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 5184,
     "surah_id": 59,
@@ -55245,7 +55245,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Qadd Sami Allah"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 5209,
     "surah_id": 60,
@@ -55397,7 +55397,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Qadd Sami Allah"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 5223,
     "surah_id": 61,
@@ -55558,7 +55558,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Qadd Sami Allah"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 5238,
     "surah_id": 62,
@@ -55688,7 +55688,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Qadd Sami Allah"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 5250,
     "surah_id": 63,
@@ -55818,7 +55818,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Qadd Sami Allah"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 5262,
     "surah_id": 64,
@@ -56024,7 +56024,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Qadd Sami Allah"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 5281,
     "surah_id": 65,
@@ -56165,7 +56165,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Qadd Sami Allah"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 5294,
     "surah_id": 66,
@@ -56306,7 +56306,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Qadd Sami Allah"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 5307,
     "surah_id": 67,
@@ -56643,7 +56643,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Tabarakallazi"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 5338,
     "surah_id": 68,
@@ -57156,7 +57156,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Tabarakallazi"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 5391,
     "surah_id": 69,
@@ -57656,7 +57656,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Tabarakallazi"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 5444,
     "surah_id": 70,
@@ -58081,7 +58081,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Tabarakallazi"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 5489,
     "surah_id": 71,
@@ -58373,7 +58373,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Tabarakallazi"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 5518,
     "surah_id": 72,
@@ -58686,7 +58686,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Tabarakallazi"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 5547,
     "surah_id": 73,
@@ -58899,7 +58899,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Tabarakallazi"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 5568,
     "surah_id": 74,
@@ -59420,7 +59420,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Tabarakallazi"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 5625,
     "surah_id": 75,
@@ -59796,7 +59796,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Tabarakallazi"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 5666,
     "surah_id": 76,
@@ -60134,7 +60134,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Tabarakallazi"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 5698,
     "surah_id": 77,
@@ -60598,7 +60598,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Tabarakallazi"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 5749,
     "surah_id": 78,
@@ -60974,7 +60974,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Amma Yatasa’aloon"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 5790,
     "surah_id": 79,
@@ -61402,7 +61402,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Amma Yatasa’aloon"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 5837,
     "surah_id": 80,
@@ -61789,7 +61789,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Amma Yatasa’aloon"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 5880,
     "surah_id": 81,
@@ -62061,7 +62061,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Amma Yatasa’aloon"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 5910,
     "surah_id": 82,
@@ -62244,7 +62244,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Amma Yatasa’aloon"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 5930,
     "surah_id": 83,
@@ -62589,7 +62589,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Amma Yatasa’aloon"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 5967,
     "surah_id": 84,
@@ -62829,7 +62829,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Amma Yatasa’aloon"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 5993,
     "surah_id": 85,
@@ -63045,7 +63045,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Amma Yatasa’aloon"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 6016,
     "surah_id": 86,
@@ -63207,7 +63207,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Amma Yatasa’aloon"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 6034,
     "surah_id": 87,
@@ -63389,7 +63389,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Amma Yatasa’aloon"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 6054,
     "surah_id": 88,
@@ -63632,7 +63632,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Amma Yatasa’aloon"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 6081,
     "surah_id": 89,
@@ -63918,7 +63918,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Amma Yatasa’aloon"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 6112,
     "surah_id": 90,
@@ -64110,7 +64110,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Amma Yatasa’aloon"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 6133,
     "surah_id": 91,
@@ -64258,7 +64258,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Amma Yatasa’aloon"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 6149,
     "surah_id": 92,
@@ -64456,7 +64456,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Amma Yatasa’aloon"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 6171,
     "surah_id": 93,
@@ -64565,7 +64565,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Amma Yatasa’aloon"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 6183,
     "surah_id": 94,
@@ -64646,7 +64646,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Amma Yatasa’aloon"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 6192,
     "surah_id": 95,
@@ -64729,7 +64729,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Amma Yatasa’aloon"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 6201,
     "surah_id": 96,
@@ -64911,7 +64911,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Amma Yatasa’aloon"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 6221,
     "surah_id": 97,
@@ -64967,7 +64967,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Amma Yatasa’aloon"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 6227,
     "surah_id": 98,
@@ -65060,7 +65060,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Amma Yatasa’aloon"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 6236,
     "surah_id": 99,
@@ -65143,7 +65143,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Amma Yatasa’aloon"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 6245,
     "surah_id": 100,
@@ -65251,7 +65251,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Amma Yatasa’aloon"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 6257,
     "surah_id": 101,
@@ -65359,7 +65359,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Amma Yatasa’aloon"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 6269,
     "surah_id": 102,
@@ -65440,7 +65440,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Amma Yatasa’aloon"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 6278,
     "surah_id": 103,
@@ -65478,7 +65478,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Amma Yatasa’aloon"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 6282,
     "surah_id": 104,
@@ -65568,7 +65568,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Amma Yatasa’aloon"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 6292,
     "surah_id": 105,
@@ -65622,7 +65622,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Amma Yatasa’aloon"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 6298,
     "surah_id": 106,
@@ -65668,7 +65668,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Amma Yatasa’aloon"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 6303,
     "surah_id": 107,
@@ -65740,7 +65740,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Amma Yatasa’aloon"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 6311,
     "surah_id": 108,
@@ -65776,7 +65776,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Amma Yatasa’aloon"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 6315,
     "surah_id": 109,
@@ -65839,7 +65839,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Amma Yatasa’aloon"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 6322,
     "surah_id": 110,
@@ -65878,7 +65878,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Amma Yatasa’aloon"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 6326,
     "surah_id": 111,
@@ -65932,7 +65932,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Amma Yatasa’aloon"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 6332,
     "surah_id": 112,
@@ -65977,7 +65977,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Amma Yatasa’aloon"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 6337,
     "surah_id": 113,
@@ -66031,7 +66031,7 @@ const List<Map<String, dynamic>> quran = [
     "para_name": "Amma Yatasa’aloon"
   },
   {
-    "urdu": "Translation pending.",
+    "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",
     "arabic": "بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ",
     "ayat_id": 6343,
     "surah_id": 114,

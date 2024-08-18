@@ -6,10 +6,10 @@ import 'package:quran_companion/global/utils/svg_constants.dart';
 import 'package:quran_companion/global/widgets/custom_text.dart';
 import 'package:quran_companion/global/widgets/horizontal_padding.dart';
 import 'package:quran_companion/global/widgets/vertical_gap.dart';
-import 'package:quran_companion/home/home_view_model.dart';
+import 'package:quran_companion/views/home/home_view_model.dart';
 import 'package:flutter/material.dart';
 import 'package:stacked/stacked.dart';
-import '../global/widgets/custom_elevated_button.dart';
+import '../../global/widgets/custom_elevated_button.dart';
 import 'widgets/search_text_field.dart';
 
 class HomeView extends StatelessWidget {

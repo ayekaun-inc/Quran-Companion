@@ -1,1 +1,14 @@
 include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    avoid_print: true
+    prefer_single_quotes: true
+    await_only_futures: true
+    prefer_const_declarations: true
+    prefer_const_constructors: true
+    require_trailing_commas: true
+    cancel_subscriptions: true
+    avoid_init_to_null: true
+    avoid_unnecessary_containers: true
+    file_names: true

@@ -14,8 +14,10 @@ class AyatProvider {
 
   List<AyatModel> getAyatBySurahPara(ReadingMode mode, int id) {
     return quran
-        .where((ayat) =>
-            ayat[mode == ReadingMode.surah ? 'surah_id' : 'para_id'] == id)
+        .where(
+          (ayat) =>
+              ayat[mode == ReadingMode.surah ? 'surah_id' : 'para_id'] == id,
+        )
         .map((ayat) => AyatModel.fromJson(ayat))
         .toList();
   }

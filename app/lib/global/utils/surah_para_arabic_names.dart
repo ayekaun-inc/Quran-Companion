@@ -112,7 +112,7 @@ const List<String> surahNamesArabic = [
   'المسد',
   'الإخلاص',
   'الفلق',
-  'الناس'
+  'الناس',
 ];
 
 const List<String> paraNamesArabic = [
@@ -145,7 +145,7 @@ const List<String> paraNamesArabic = [
   'قَالَ فَمَا خَطْبُكُمْ',
   'قَدْ سَمِعَ اللَّهُ',
   'تَبَارَكَ الَّذِي',
-  'عَمَّ يَتَسَاءَلُونَ'
+  'عَمَّ يَتَسَاءَلُونَ',
 ];
 
 extension SurahParaNameArabic on int {

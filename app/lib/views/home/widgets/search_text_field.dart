@@ -61,7 +61,7 @@ class _SearchTextFieldState extends State<SearchTextField> {
             color: _isFocused ? brown : darkGray,
             size: 20.w,
           ),
-          hintText: "Enter your desired word i.e ‘اللہ’",
+          hintText: 'Enter your desired word i.e ‘اللہ’',
           hintStyle: TextStyle(
             fontFamily: amiriRegular,
             fontSize: 15.sp,

@@ -9,8 +9,8 @@
 - **Share**: Share verses as PDFs with others.
 - **Smooth UI**: A clean and intuitive user interface.
 
-## Screenshots
-*(Screenshots to be added here)*
+## Video Walkthrough
+*(Walkthrough to be added here)*
 
 ## Acknowledgments
 - [Amanullah Faisal](https://www.linkedin.com/in/amanullahfaisal/) for designing the user interface of the app.

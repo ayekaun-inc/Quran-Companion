@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_single_quotes, require_trailing_commas
+
 const List<Map<String, dynamic>> quran = [
   {
     "urdu": "شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے",

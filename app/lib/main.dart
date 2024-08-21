@@ -10,6 +10,7 @@ Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await setUpServiceLocator();
   setSystemOverlayStyle();
+  await lockAppOrientation();
   setupDialogUI();
   setupBottomSheetUI();
   await LocalStorage.initializeSharedPreferences();

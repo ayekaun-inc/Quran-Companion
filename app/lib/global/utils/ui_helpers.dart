@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:quran_companion/global/themes/colors.dart';
@@ -13,6 +15,13 @@ void setSystemOverlayStyle() {
       systemNavigationBarIconBrightness: Brightness.dark,
     ),
   );
+}
+
+Future<void> lockAppOrientation() async {
+  await SystemChrome.setPreferredOrientations([
+    DeviceOrientation.portraitUp,
+    DeviceOrientation.portraitDown,
+  ]);
 }
 
 void collapseKeyboard(BuildContext context) {

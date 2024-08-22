@@ -10,7 +10,7 @@
 - **Smooth UI**: A clean and intuitive user interface.
 
 ## Video Walkthrough
-*(Walkthrough to be added here)*
+You can watch a full walkthrough of the app [here](https://youtu.be/BxCkMepRYKo).
 
 ## Acknowledgments
 - [Amanullah Faisal](https://www.linkedin.com/in/amanullahfaisal/) for designing the user interface of the app.

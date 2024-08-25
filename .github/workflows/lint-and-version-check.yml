@@ -3,6 +3,7 @@ name: Flutter Lint and Version Check
 on:
   pull_request:
     branches: [ "develop" ]
+    types: [opened, edited, synchronize]
 
 jobs:
   lint-and-version-check:
@@ -26,10 +27,25 @@ jobs:
           cd app
           flutter analyze
 
+      - name: Check for skip-version-check label
+        id: label_check
+        run: |
+          labels=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.pull_request.number }}/labels \
+            | jq -r '.[].name')
+
+          if echo "$labels" | grep -q "skip-version-check"; then
+            echo "SKIP_VERSION_BUMP=true" >> $GITHUB_ENV
+          else
+            echo "SKIP_VERSION_BUMP=false" >> $GITHUB_ENV
+          fi
+
       - name: Check Version Bump
+        if: env.SKIP_VERSION_BUMP == 'false'
         run: |
           cd app
-          PREV_VERSION=$(git show HEAD^:pubspec.yaml | grep '^version:' | awk '{print $2}')
+          git fetch origin develop
+          PREV_VERSION=$(git show origin/develop:pubspec.yaml | grep '^version:' | awk '{print $2}')
           CURR_VERSION=$(grep '^version:' pubspec.yaml | awk '{print $2}')
           if [ "$PREV_VERSION" == "$CURR_VERSION" ]; then
             echo "Version has not been bumped. Failing the workflow."

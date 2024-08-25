@@ -60,7 +60,7 @@ class HomeViewModel extends BaseViewModel {
       _setIsSearching(false);
       _navigationService.navigateTo(
         ayatListView,
-        arguments: AyatListViewArguments(
+        arguments: AyatListViewArgumentsModel(
           title: 'Search Results',
           subtitle: "by word '$_searchText'",
           ayats: searchResults,

@@ -15,7 +15,7 @@ import 'package:stacked_services/stacked_services.dart';
 import '../../global/widgets/ayat_tile/ayat_tile.dart';
 
 class AyatListView extends StatelessWidget {
-  final AyatListViewArguments arguments;
+  final AyatListViewArgumentsModel arguments;
   const AyatListView({
     super.key,
     required this.arguments,

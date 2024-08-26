@@ -45,7 +45,7 @@ jobs:
         run: |
           cd app
           git fetch origin develop
-          PREV_VERSION=$(git show origin/develop:pubspec.yaml | grep '^version:' | awk '{print $2}')
+          PREV_VERSION=$(git show origin/develop:app/pubspec.yaml | grep '^version:' | awk '{print $2}')
           CURR_VERSION=$(grep '^version:' pubspec.yaml | awk '{print $2}')
           if [ "$PREV_VERSION" == "$CURR_VERSION" ]; then
             echo "Version has not been bumped. Failing the workflow."

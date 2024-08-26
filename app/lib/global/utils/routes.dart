@@ -24,8 +24,8 @@ class RoutesPath {
           builder: (context) => SurahParaListView(mode: args),
         );
       case ayatListView:
-        AyatListViewArguments args =
-            settings.arguments as AyatListViewArguments;
+        AyatListViewArgumentsModel args =
+            settings.arguments as AyatListViewArgumentsModel;
         return MaterialPageRoute(
           builder: (context) => AyatListView(arguments: args),
         );

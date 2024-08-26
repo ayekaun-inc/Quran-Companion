@@ -1,6 +1,6 @@
 import 'package:quran_companion/global/models/ayat_list_view_arguments.dart';
 import 'package:quran_companion/global/models/ayat_model.dart';
-import 'package:quran_companion/global/models/surah_para_tile_model.dart';
+import 'package:quran_companion/views/surah_para_list/models/surah_para_tile_model.dart';
 import 'package:quran_companion/global/repositories/ayat_repository.dart';
 import 'package:quran_companion/global/utils/enums.dart';
 import 'package:quran_companion/global/utils/quran.dart';
@@ -65,7 +65,7 @@ class SurahParaListViewModel extends BaseViewModel {
 
     _navigationService.navigateTo(
       ayatListView,
-      arguments: AyatListViewArguments(
+      arguments: AyatListViewArgumentsModel(
         title: mode.type,
         subtitle: name,
         ayats: surahParaAyats,

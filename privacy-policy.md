@@ -2,8 +2,6 @@
 
 **Last updated:** September 01, 2024
 
-**ayekaun inc.** operates the **Quran Companion** mobile application.
-
 This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data.
 
 ## 1. Information Collection and Use
